@@ -1,0 +1,10 @@
+Package: kmod-usb-core
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 70822
+Description:  Kernel support for USB

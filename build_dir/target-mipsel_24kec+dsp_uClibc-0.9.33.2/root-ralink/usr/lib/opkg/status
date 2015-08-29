@@ -1,0 +1,53 @@
+Package: libc
+Version: 0.9.33.2-1
+Depends: libgcc
+Status: install hold,user installed
+Essential: yes
+Architecture: ralink
+Installed-Time: 1440837896
+
+Package: kmod-usb-core
+Version: 3.10.66-1
+Depends: kernel (= 3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-nls-base
+Status: install hold,user installed
+Architecture: ralink
+Installed-Time: 1440837897
+Auto-Installed: yes
+
+Package: kmod-usb-dwc2
+Version: 3.10.66-1
+Depends: kernel (= 3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-core
+Status: install hold,user installed
+Architecture: ralink
+Installed-Time: 1440837897
+
+Package: kmod-ledtrig-usbdev
+Version: 3.10.66-1
+Depends: kernel (= 3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-core
+Status: install hold,user installed
+Architecture: ralink
+Installed-Time: 1440837897
+
+Package: libgcc
+Version: 4.8-linaro-1
+Status: install hold installed
+Essential: yes
+Architecture: ralink
+Installed-Time: 1440837896
+Auto-Installed: yes
+
+Package: kernel
+Version: 3.10.66-1-7c2382199067433be13c99eeb6ae1e77
+Depends: libc
+Status: install hold,user installed
+Architecture: ralink
+Installed-Time: 1440837896
+
+Package: kmod-nls-base
+Version: 3.10.66-1
+Depends: kernel (= 3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Status: install hold installed
+Architecture: ralink
+Installed-Time: 1440837897
+Auto-Installed: yes
+

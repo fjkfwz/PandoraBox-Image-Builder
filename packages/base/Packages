@@ -1,0 +1,3785 @@
+Package: 6in4
+Version: 17-1
+Depends: libc, kmod-ipv6, kmod-sit
+Source: package/network/ipv6/6in4
+Section: net
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: all
+Installed-Size: 1195
+Filename: 6in4_17-1_all.ipk
+Size: 1837
+MD5Sum: d4c46049022041eaa43be60dee942df3
+SHA256sum: 2745ef8e542a40d06ded5194a0715e982e0d630248628d372b1398258661cccf
+Description:  Provides support for 6in4 tunnels in /etc/config/network.
+ Refer to http://wiki.openwrt.org/doc/uci/network for
+ configuration details.
+
+Package: 6rd
+Version: 7-1
+Depends: libc, kmod-ipv6, kmod-sit
+Source: package/network/ipv6/6rd
+Section: net
+Maintainer: Stéphan Kochen <stephan@kochen.nl>
+Architecture: all
+Installed-Size: 2894
+Filename: 6rd_7-1_all.ipk
+Size: 3509
+MD5Sum: d14aa11a60feef3a9b144a105f371a9c
+SHA256sum: 44f16d9136810c24190d93fd65307ca6adb86193960f4898ad6f72c115ae253d
+Description:  Provides support for 6rd tunnels in /etc/config/network.
+ Refer to http://wiki.openwrt.org/doc/uci/network for
+ configuration details.
+
+Package: 6to4
+Version: 12-1
+Depends: libc, kmod-ipv6, kmod-sit
+Source: package/network/ipv6/6to4
+Section: net
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: all
+Installed-Size: 1075
+Filename: 6to4_12-1_all.ipk
+Size: 1711
+MD5Sum: e828fd37807d73102287a39c87a4a92c
+SHA256sum: f89d3c2f3ba99009d4f53d5a9eab5401ba1bbf4f319dee65172f5afd1d82a91c
+Description:  Provides support for 6to4 tunnels in /etc/config/network.
+ Refer to http://wiki.openwrt.org/doc/uci/network for
+ configuration details.
+
+Package: ChinaDNS-C
+Version: 1.3.0
+Depends: libc
+Source: package/pandorabox/ChinaDNS-C
+Section: net
+Maintainer: clowwindy <clowwindy42@gmail.com>
+Architecture: ralink
+Installed-Size: 26192
+Filename: ChinaDNS-C_1.3.0_ralink.ipk
+Size: 26364
+MD5Sum: 268dfae3d080b2daa6343c65cb00bc53
+SHA256sum: 123e54b74bec4134d2a14b2af42b9c07c0b92ab93f23423c1609aac6e2829e13
+Description:  A DNS forwarder that ignores incorrect(you knew it) responses.
+
+Package: base-files
+Version: 156-r460
+Depends: libc, netifd, procd, jsonfilter
+Source: package/base-files
+Section: base
+Architecture: ralink
+Installed-Size: 43721
+Filename: base-files_156-r460_ralink.ipk
+Size: 44247
+MD5Sum: 565173e2650d399c717b5ff69e77c786
+SHA256sum: 719d9f83187e30c1766dbf2d5454dfb7253aeeb638af3512c321cc4ede992a70
+Description:  This package contains a base filesystem and system scripts for OpenWrt.
+
+Package: blkid
+Version: 2.24.1-1
+Depends: libc, libblkid
+Source: package/utils/util-linux
+License: GPLv2 LGPLv2.1 BSD-3c
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: ralink
+Installed-Size: 24126
+Filename: blkid_2.24.1-1_ralink.ipk
+Size: 24700
+MD5Sum: 3be5536b2a96372510d574f96e206038
+SHA256sum: f971c285726b27dc21fdc53218e577172c8f249824fcbc7962b7a88b1f45df3f
+Description:  The blkid program is the command-line interface to working with the libblkid
+ library.
+
+Package: block-mount
+Version: 2014-12-01
+Depends: libc, ubox, libubox, libuci, libblkid
+Source: package/system/fstools
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ralink
+Installed-Size: 10740
+Filename: block-mount_2014-12-01_ralink.ipk
+Size: 11281
+MD5Sum: 8afeecc8f5a9dbf78179ca920e59d42a
+SHA256sum: da96e13a55f7056f6a54e6f6f6b3ce9d6b20d032b6540ba3c17f4d6e861fb7a7
+Description:  Block device mounting and checking
+
+Package: busybox
+Version: 1.22.1-3
+Depends: libc
+Source: package/utils/busybox
+License: GPLv2 BSD-4c
+LicenseFiles: LICENSE archival/libarchive/bz/LICENSE
+Section: base
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 205898
+Filename: busybox_1.22.1-3_ralink.ipk
+Size: 206565
+MD5Sum: 27c1fcc90fcfad019ec384d49cf246e2
+SHA256sum: d5f98166669820979b2ee0a46e806db339455696475574be2bcd3ace2f86d0d8
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: cfdisk
+Version: 2.24.1-1
+Depends: libc, libblkid, libncurses
+Source: package/utils/util-linux
+License: GPLv2 LGPLv2.1 BSD-3c
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: ralink
+Installed-Size: 28495
+Filename: cfdisk_2.24.1-1_ralink.ipk
+Size: 29146
+MD5Sum: 30473de713b6035754dd17b94daebd9e
+SHA256sum: 5ec014b64bd93d020f27abe1d32ec1e292a47a32ec4fb7b17c44d86e962a6944
+Description:  cfdisk is a curses-based program for partitioning any hard disk drive
+
+Package: chat
+Version: 2.4.7-2
+Depends: libc
+Source: package/network/services/ppp
+Section: net
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ralink
+Installed-Size: 7648
+Filename: chat_2.4.7-2_ralink.ipk
+Size: 8279
+MD5Sum: 5b9806646ad3cfb82dc071754abcb46f
+SHA256sum: 2938ed8f4476403493ca20785a60af98c496d4d3fd30958e2a6646cd6a45e876
+Description:  This package contains an utility to establish conversation with other PPP servers
+ (via a modem).
+
+Package: comgt
+Version: 0.32-23
+Depends: libc, chat
+Source: package/network/utils/comgt
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 19028
+Filename: comgt_0.32-23_ralink.ipk
+Size: 19674
+MD5Sum: 192b1bde2adcedbaf8281e99caca76de
+SHA256sum: b26b7af74eb3b49f4f4210f99f6e19957e0f0e20b047763a8794f498398067b6
+Description:  comgt is a scripting language interpreter useful for establishing 
+ communications on serial lines and through PCMCIA modems as well as GPRS 
+ and 3G datacards.
+
+Package: cpulimit-ng
+Version: 1.2-1
+Depends: libc
+Source: package/pandorabox/cpulimit-ng
+Section: utils
+Architecture: ralink
+Installed-Size: 6859
+Filename: cpulimit-ng_1.2-1_ralink.ipk
+Size: 7412
+MD5Sum: 17512a9b9fd3a5dba79dac9ea56223d9
+SHA256sum: 84a4e5054e109a64ac040ccaa364f9b7be6436471e945c54c71b5f162290d312
+Description:  CPU Usage Limiter for Linux
+
+Package: dnsmasq-full
+Version: 2.71-4
+Depends: libc, kmod-ipv6, libnettle
+Source: package/network/services/dnsmasq
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Architecture: ralink
+Installed-Size: 119469
+Filename: dnsmasq-full_2.71-4_ralink.ipk
+Size: 120233
+MD5Sum: 40bc7760c575c2358f0ee53f0bf551f5
+SHA256sum: 997a60abd6a80a1fcff8619d0ecb39ae3a51c0661294a657e09dd9d276b8e23d
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a variant with DHCPv6, DNSSEC, Authroitative DNS and IPSET support
+
+Package: dropbear
+Version: 2014.63-2
+Depends: libc
+Source: package/network/services/dropbear
+License: MIT
+LicenseFiles: LICENSE libtomcrypt/LICENSE libtommath/LICENSE
+Section: net
+Architecture: ralink
+Installed-Size: 80779
+Filename: dropbear_2014.63-2_ralink.ipk
+Size: 81436
+MD5Sum: b8261bf2f812c858831b703cdf28fb68
+SHA256sum: 22c1328e69c5e079ce97f9a88f42655ebeb22ec754d127fd2be4fc70f4be06f0
+Description:  A small SSH2 server/client designed for small memory environments.
+
+Package: e2fsprogs
+Version: 1.42.4-1
+Depends: libc, libuuid, libext2fs
+Source: package/utils/e2fsprogs
+Section: utils
+Architecture: ralink
+Installed-Size: 167964
+Filename: e2fsprogs_1.42.4-1_ralink.ipk
+Size: 168351
+MD5Sum: 4df9a57fcb94b6eedaba0a1a2f4a2a9b
+SHA256sum: 79f0e140e1d9aca5624481cf8d9b187b6656ef8df6c2ed0d5d5622ee83ce95c5
+Description:  This package contains essential ext2 filesystem utilities which consists of
+ e2fsck, mke2fs, tune2fs, and most of the other core ext2
+ filesystem utilities.
+
+Package: exfat-utils
+Version: 1.1.1-1
+Depends: libc, kmod-exfat
+Source: package/pandorabox/exfat-utils
+Section: utils
+Architecture: ralink
+Installed-Size: 78591
+Filename: exfat-utils_1.1.1-1_ralink.ipk
+Size: 77697
+MD5Sum: a701bdec10b8b55fbc786c973569ff04
+SHA256sum: ff582625d68af69db32d8301806d38cb4fa1cff54d753a8bc3430dbc9d5dd407
+Description:  exFAT file system utils
+
+Package: firewall
+Version: 2014-09-19
+Depends: libc, libubox, libubus, libuci, libip4tc, libip6tc, libxtables, kmod-ipt-core, kmod-ipt-nat
+Source: package/network/config/firewall
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ralink
+Installed-Size: 53669
+Filename: firewall_2014-09-19_ralink.ipk
+Size: 54398
+MD5Sum: 5464f163be5d5cec7fe88f88c2be40fe
+SHA256sum: c88e5864fe7c368f45fb4dca76afc69acc1c30d7eb16e7e5e13fe5486420d396
+Description:  This package provides a config-compatible C implementation of the UCI firewall.
+
+Package: fstools
+Version: 2014-12-01
+Depends: libc, ubox, ubi-utils
+Source: package/system/fstools
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ralink
+Installed-Size: 16906
+Filename: fstools_2014-12-01_ralink.ipk
+Size: 17489
+MD5Sum: 17edab19658f08a9cadb35a2934fd243
+SHA256sum: 29e30de9f2e95b5c6a464d652d0a85bca82b0097f11a5d988d618465b64addf5
+Description:  OpenWrt filesystem tools
+
+Package: gevent
+Version: 1.0-1
+Depends: libc, python, python-greenlet, libevent2, librt
+Source: package/pandorabox/gevent
+Section: language-python
+Architecture: ralink
+Installed-Size: 216869
+Filename: gevent_1.0-1_ralink.ipk
+Size: 216921
+MD5Sum: 42143ea8998d9c470e809773538958ef
+SHA256sum: 8c00af3057ece0564f13be2dacc445b490a7a4e798d75c8f2edb9f725c42cc6b
+Description:  gevent is a coroutine-based Python networking library.
+
+Package: goagent
+Version: 3.1.17
+Depends: libc, python, pyopenssl, gevent
+Source: package/pandorabox/goagent
+Section: net
+Architecture: ralink
+Installed-Size: 77677
+Filename: goagent_3.1.17_ralink.ipk
+Size: 78537
+MD5Sum: 222b4db9694561cf4663d05bf78bc23f
+SHA256sum: 7884f5c1abeb58dfc8e3dfc17548032cda8e76203f22dcfef766f22a234accae
+Description:  GoAgent is a proxy tool to break the GFW.
+
+Package: gpioctl
+Version: 1.0-1
+Depends: libc
+Source: package/pandorabox/gpioctl
+Section: utils
+Architecture: ralink
+Installed-Size: 1556
+Filename: gpioctl_1.0-1_ralink.ipk
+Size: 2083
+MD5Sum: 686efe6efab515d7b3557f59aba53354
+SHA256sum: e036607449d705852ac27cdf11be302966ad100e40563ae54de3f781728da189
+Description:  Tool for controlling gpio pins
+
+Package: gre
+Version: 1-2
+Depends: libc
+Source: package/network/config/gre
+Section: net
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: ralink
+Installed-Size: 1306
+Filename: gre_1-2_ralink.ipk
+Size: 1899
+MD5Sum: f3919a0be38a835c59c4589e4eda04e8
+SHA256sum: e9af1776a2743c44ee87baf0d704d75616b4140ec6a7615ee722f5e2f2f606cd
+Description:  Generic Routing Encapsulation config support (IPv4 and IPv6) in /etc/config/network.
+
+Package: hostapd-common
+Version: 2014-06-03.1-1
+Depends: libc
+Source: package/network/services/hostapd
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 4380
+Filename: hostapd-common_2014-06-03.1-1_ralink.ipk
+Size: 4977
+MD5Sum: 5d0baa7e01eafeb79a9659717364f1ee
+SHA256sum: c87be221c997ffd9fb273808e566a33683d8e442f40bbe0a3dbb3f832c9e3326
+Description:  hostapd/wpa_supplicant common support files
+
+Package: hostapd
+Version: 2014-06-03.1-1
+Depends: libc, libnl-tiny, libubus
+Source: package/network/services/hostapd
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 208349
+Filename: hostapd_2014-06-03.1-1_ralink.ipk
+Size: 209066
+MD5Sum: 46e7a31535aa38c76682122d9241d11e
+SHA256sum: 998775df633495f77e433192b32c5d3da4294e02ffe81514ca0cfc3baa2d31e1
+Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
+ Authenticator.
+
+Package: ip6tables
+Version: 1.4.21-1
+Depends: libc, kmod-ip6tables, iptables
+Source: package/network/utils/iptables
+Section: net
+Architecture: ralink
+Installed-Size: 215
+Filename: ip6tables_1.4.21-1_ralink.ipk
+Size: 733
+MD5Sum: b0f952b61a7d7ab3ea9a32c0fb27cb6f
+SHA256sum: 8e16b38d74c64270f30b37c248d9470bc438c721a473cecd44dda9d98a225b2b
+Description:  IPv6 firewall administration tool
+
+Package: ip
+Version: 3.15.0-1
+Depends: libc, libnl-tiny
+Source: package/network/utils/iproute2
+Section: net
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: ralink
+Installed-Size: 63144
+Filename: ip_3.15.0-1_ralink.ipk
+Size: 63871
+MD5Sum: a3e08cdc7fd2177fbf54b5185f7e42b2
+SHA256sum: aad104654ec199e1ca59837a2bda89ee18e97d219f2423504ce3d4d51878f9df
+Description:  Routing control utility (Minimal)
+
+Package: ipset
+Version: 6.20.1-1
+Depends: libc, kmod-ipt-ipset, libmnl
+Source: package/network/utils/ipset
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ralink
+Installed-Size: 58517
+Filename: ipset_6.20.1-1_ralink.ipk
+Size: 59003
+MD5Sum: 3650d39c5a5da9dfac0a913fad1e1d7d
+SHA256sum: 217f39be7ff80efbb50ecc227a01bb68901f6abf21b7b4ec1da45b640901a7e4
+Description:  IPset administration utility
+
+Package: iptables-mod-conntrack-extra
+Version: 1.4.21-1
+Depends: libc, iptables, kmod-ipt-conntrack-extra
+Source: package/network/utils/iptables
+Section: net
+Architecture: ralink
+Installed-Size: 9020
+Filename: iptables-mod-conntrack-extra_1.4.21-1_ralink.ipk
+Size: 9656
+MD5Sum: 6737fd66d5e2fcbfdc0aa2c4c6b79df0
+SHA256sum: fa0de6e636dd4ffa00154a2dfefe373929ddef69dba58cf7b2017d065697eb31
+Description:  Extra iptables extensions for connection tracking.
+ 
+ Matches:
+ - connbytes
+ - connlimit
+ - connmark
+ - recent
+ - helper
+ 
+ Targets:
+ - CONNMARK
+ 
+
+Package: iptables-mod-filter
+Version: 1.4.21-1
+Depends: libc, iptables, kmod-ipt-filter
+Source: package/network/utils/iptables
+Section: net
+Architecture: ralink
+Installed-Size: 11586
+Filename: iptables-mod-filter_1.4.21-1_ralink.ipk
+Size: 12198
+MD5Sum: 02704aec7ed198c24ddc78f6f4911b6b
+SHA256sum: 543a41c6b63ac2bf9855897fb4a5b686b7feba17e6cf991a123204c2c2d94be8
+Description:  iptables extensions for packet content inspection.
+ Includes support for:
+ 
+ Matches:
+ - layer7
+ - string
+ 
+
+Package: iptables-mod-ipopt
+Version: 1.4.21-1
+Depends: libc, iptables, kmod-ipt-ipopt
+Source: package/network/utils/iptables
+Section: net
+Architecture: ralink
+Installed-Size: 12348
+Filename: iptables-mod-ipopt_1.4.21-1_ralink.ipk
+Size: 12922
+MD5Sum: 24fab73c90801bef3bd467ecb1b5baba
+SHA256sum: f4d7dfadf12f98dc97cdbb6916e7e09af421dd8b3c5bc1bf861ecf84720e8766
+Description:  iptables extensions for matching/changing IP packet options.
+ 
+ Matches:
+ - dscp
+ - ecn
+ - length
+ - statistic
+ - tcpmss
+ - unclean
+ - hl
+ 
+ Targets:
+ - DSCP
+ - CLASSIFY
+ - ECN
+ - HL
+ 
+
+Package: iptables-mod-ipp2p
+Version: 2.3-1
+Depends: libc, iptables, kmod-ipt-ipp2p
+Source: package/network/utils/xtables-addons
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ralink
+Installed-Size: 2617
+Filename: iptables-mod-ipp2p_2.3-1_ralink.ipk
+Size: 3209
+MD5Sum: cf2d733cdfde94e757099883db370454
+SHA256sum: b07c3a65dbd73034d7a322f0a14ee52cabb084daf5439000c545d579b7c20209
+Description:  IPP2P iptables extension
+
+Package: iptables
+Version: 1.4.21-1
+Depends: libc, kmod-ipt-core, libip4tc, libip6tc, libxtables
+Source: package/network/utils/iptables
+Section: net
+Architecture: ralink
+Installed-Size: 45082
+Filename: iptables_1.4.21-1_ralink.ipk
+Size: 45855
+MD5Sum: 216552ec07c6b1b3d70a91c12f1ea8b9
+SHA256sum: edbfc30af9ce134a4dfb5d0c6dde2a2e41b209a8427053b4b1c45fab8a804367
+Description:  IP firewall administration tool.
+ 
+ Matches:
+ - icmp
+ - tcp
+ - udp
+ - comment
+ - conntrack
+ - limit
+ - mac
+ - mark
+ - multiport
+ - set
+ - state
+ - time
+ 
+ Targets:
+ - ACCEPT
+ - CT
+ - DNAT
+ - DROP
+ - REJECT
+ - LOG
+ - MARK
+ - MASQUERADE
+ - REDIRECT
+ - SET
+ - SNAT
+ - TCPMSS
+ 
+ Tables:
+ - filter
+ - mangle
+ - nat
+ - raw
+ 
+
+Package: iw
+Version: 3.15-1
+Depends: libc, libnl-tiny
+Source: package/network/utils/iw
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 38035
+Filename: iw_3.15-1_ralink.ipk
+Size: 38736
+MD5Sum: 0a21402c306e5a9f3fe07ed56909c02e
+SHA256sum: c8ab15f0ee39b300478e3191fdb5e39b503b19192b72e131d91243cf1895108a
+Description:  cfg80211 interface configuration utility
+
+Package: jshn
+Version: 2014-08-04-dffbc09baf71b294185a36048166d00066d433b5
+Depends: libc, libjson-c, libubox, libblobmsg-json
+Source: package/libs/libubox
+License: ISC BSD-3c
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 4976
+Filename: jshn_2014-08-04-dffbc09baf71b294185a36048166d00066d433b5_ralink.ipk
+Size: 5611
+MD5Sum: 8bad74b5d0f4f4ffe2d6169d3ea39306
+SHA256sum: a1ead0dced6c1e2d71b212571697e31a15a6706569c146916fe13fe5d66baaf2
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: jsonfilter
+Version: 2014-06-19-cdc760c58077f44fc40adbbe41e1556a67c1b9a9
+Depends: libc, libubox, libjson-c
+Source: package/utils/jsonfilter
+Section: base
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ralink
+Installed-Size: 6713
+Filename: jsonfilter_2014-06-19-cdc760c58077f44fc40adbbe41e1556a67c1b9a9_ralink.ipk
+Size: 7325
+MD5Sum: fa8085d5ee48b8bdc1228c76cf68d1ac
+SHA256sum: 505bee648fe9690881d57832d04dd30a2da6b9c1855ba8e9617b8b488bba012f
+Description:  OpenWrt JSON filter utility
+
+Package: kmod-cfg80211
+Version: 3.10.66+2014-05-22-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), iw
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 110276
+Filename: kmod-cfg80211_3.10.66+2014-05-22-1_ralink.ipk
+Size: 110675
+MD5Sum: 89def213ce452d085c521d8d91fda56a
+SHA256sum: 7f7cb4a7d07d3f680bcdc3d4a6443c24bc1dcc20ebe44e6792ec1910fbfff285
+Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
+
+Package: kmod-crypto-aes
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 105
+Filename: kmod-crypto-aes_3.10.66-1_ralink.ipk
+Size: 680
+MD5Sum: ca43bfa8073901f9e6d21a928e630ac2
+SHA256sum: f4c67b769b742ce1dee8b5661b44c6130df48a80b6e03faf4ce94bbb2b49fa43
+Description:  AES cipher CryptoAPI module
+
+Package: kmod-crypto-arc4
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 1225
+Filename: kmod-crypto-arc4_3.10.66-1_ralink.ipk
+Size: 1955
+MD5Sum: 195ed10bc40e3391db55e5eb9c8b94c3
+SHA256sum: f0405c5c00042b389808080c42f50376b3f7ca8a815583f1c5fe03fd43ad8f7e
+Description:  ARC4 (RC4) cipher CryptoAPI module
+
+Package: kmod-crypto-core
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 7068
+Filename: kmod-crypto-core_3.10.66-1_ralink.ipk
+Size: 7693
+MD5Sum: cac72dc5355b489afa945b3d4629dd41
+SHA256sum: f1e753152402591d7523226cd00427fdfb6fd7c29d3f886858ae9d263381a95c
+Description:  Core CryptoAPI modules
+
+Package: kmod-crypto-crc32c
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-crypto-hash, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 983
+Filename: kmod-crypto-crc32c_3.10.66-1_ralink.ipk
+Size: 1707
+MD5Sum: 03d57874d41d298020665573e28e1d22
+SHA256sum: 9eb879cb7c7b8bc579a29a406ad3c02bd72aff492872913c560e26206fee8a4e
+Description:  CRC32c CRC module
+
+Package: kmod-crypto-hash
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 6010
+Filename: kmod-crypto-hash_3.10.66-1_ralink.ipk
+Size: 6684
+MD5Sum: da01dccd87a8114d5244adf9e184f6aa
+SHA256sum: 9ea0bd70f4c1d5c34088915608edc888b66acbeb835814326762b13c37e32918
+Description:  CryptoAPI hash support
+
+Package: kmod-dnsresolver
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 105
+Filename: kmod-dnsresolver_3.10.66-1_ralink.ipk
+Size: 664
+MD5Sum: ca3c520f7e4b43331357ae7506958f95
+SHA256sum: fca298229198bae1c637d2316e583575f686317e13fb5e263fc02d7ad59e6be6
+Description:  In-kernel DNS Resolver
+
+Package: kmod-eeprom-93cx6
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 1525
+Filename: kmod-eeprom-93cx6_3.10.66-1_ralink.ipk
+Size: 2263
+MD5Sum: 3bf1b361843104364147be00875a25a4
+SHA256sum: 952079a46e2d00035cbbfeaf644c2c45e2d92bc379207f79a186895b5723794b
+Description:  Kernel module for EEPROM 93CX6 support
+
+Package: kmod-fs-autofs4
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 12866
+Filename: kmod-fs-autofs4_3.10.66-1_ralink.ipk
+Size: 13540
+MD5Sum: b9252c1f2bd3c473ed9d88fd0080edc2
+SHA256sum: 75fbaf414dcfe9747fbda69221b18aaac1849ff11aeceeb13239e8817a0c1234
+Description:  Kernel module for AutoFS4 support
+
+Package: kmod-fs-exfat
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-nls-cp936, kmod-nls-utf8, kmod-nls-cp437, kmod-nls-iso8859-1
+Source: package/pandorabox/exfat-driver
+Section: kernel
+Architecture: ralink
+Installed-Size: 45700
+Filename: kmod-fs-exfat_3.10.66-1_ralink.ipk
+Size: 46361
+MD5Sum: 80e48098bc40e486c3ab5f58d7011039
+SHA256sum: 51a09ed8666d4a2a11c3c5903036bf8bf5c95926c209584404a53574ae291a64
+Description:  Kernel module support exFAT,FAT16,FAT32,VFAT.
+
+Package: kmod-fs-exportfs
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 2585
+Filename: kmod-fs-exportfs_3.10.66-1_ralink.ipk
+Size: 3275
+MD5Sum: 0423af8ecc9a6dae7587070f15512a1f
+SHA256sum: b8a31b3e311da17d176a7d0a1723c408ffad9d058be1f7a36a8150354b6f3e5b
+Description:  Kernel module for exportfs. Needed for some other modules.
+
+Package: kmod-fs-ext4
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-lib-crc16, kmod-crypto-hash
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 219348
+Filename: kmod-fs-ext4_3.10.66-1_ralink.ipk
+Size: 219432
+MD5Sum: 0a41861900617383e4977f9bfe17d5f9
+SHA256sum: 8adbe182473f8bc9efeb886a78a093532268e4d57e8624a60d4d2942854cd33b
+Description:  Kernel module for EXT4 filesystem support
+
+Package: kmod-fs-nfs-common
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-lib-oid-registry
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 110185
+Filename: kmod-fs-nfs-common_3.10.66-1_ralink.ipk
+Size: 110678
+MD5Sum: 2e7915f2609de017ad5f0b1274dabf04
+SHA256sum: d22abdf8ceb47fe646eec2f1f2175baa92785968dfc5d16a1207b0fe20b97f90
+Description:  Common NFS filesystem modules
+
+Package: kmod-fs-nfs
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-fs-nfs-common, kmod-dnsresolver
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 73715
+Filename: kmod-fs-nfs_3.10.66-1_ralink.ipk
+Size: 74305
+MD5Sum: 92cc9af204ef24129306eee2ba885d1f
+SHA256sum: 5d420292a1413dc0b74219480e3294aa246e1686cebdd3884646b7884910cca0
+Description:  Kernel module for NFS support
+
+Package: kmod-fs-reiserfs
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 121742
+Filename: kmod-fs-reiserfs_3.10.66-1_ralink.ipk
+Size: 121796
+MD5Sum: 845af86903dddf78ab63ff8211a4c788
+SHA256sum: 048bc48b9f43c8d1a438e9a03a075e6ef35c551e60bf0c94f3a0f0fa5ce88289
+Description:  Kernel module for ReiserFS support
+
+Package: kmod-fs-ufsd
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/pandorabox/ufsd-driver
+Section: kernel
+Architecture: ralink
+Installed-Size: 185516
+Filename: kmod-fs-ufsd_3.10.66-1_ralink.ipk
+Size: 185714
+MD5Sum: e7a95abb4ddef579d425343cd8874003
+SHA256sum: 7fca5a324f4e3006a2a1a3564208757ee035cdb8053462ce7b5e7a181bdadc77
+Description:  Kernel module support NTFS,HPFS
+
+Package: kmod-fs-vfat
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 37327
+Filename: kmod-fs-vfat_3.10.66-1_ralink.ipk
+Size: 37938
+MD5Sum: 12638706957691c4336a60d12bea748f
+SHA256sum: 953b973a344380e5910b45127fe846b5cd362d6792055709bee9d09eaa6fcda1
+Description:  Kernel module for VFAT filesystem support
+
+Package: kmod-fs-xfs
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-fs-exportfs, kmod-lib-crc32c
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 263894
+Filename: kmod-fs-xfs_3.10.66-1_ralink.ipk
+Size: 263902
+MD5Sum: 276358104b24018ff882db6f9cda3ca4
+SHA256sum: 78f27620635986ae9f28979824089e5b4aa10579d443dda0683bc99e59d5b091
+Description:  Kernel module for XFS support
+
+Package: kmod-fuse
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 41772
+Filename: kmod-fuse_3.10.66-1_ralink.ipk
+Size: 42330
+MD5Sum: ec3533f9321468ad06bb8c6b2bcef801
+SHA256sum: 4231448b3264a3bbd14fb2230d1f312afd825d314be80699dc0b70f4636ed20a
+Description:  Kernel module for userspace filesystem support
+
+Package: kmod-gpio-button-hotplug
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/gpio-button-hotplug
+Section: kernel
+Architecture: ralink
+Installed-Size: 4436
+Filename: kmod-gpio-button-hotplug_3.10.66-1_ralink.ipk
+Size: 5244
+MD5Sum: fcd1558ff45ef61b9886be8c5031d778
+SHA256sum: 7e294a11d654f74f1a960939655b08b6963c4ccbb92e4ffdaa7990fe56d22398
+Description:  This is a replacement for the following in-kernel drivers:
+ 1) gpio_keys (KEYBOARD_GPIO)
+ 2) gpio_keys_polled (KEYBOARD_GPIO_POLLED)
+ 
+ Instead of generating input events (like in-kernel drivers do) it generates
+ uevent-s and broadcasts them. This allows disabling input subsystem which is
+ an overkill for OpenWrt simple needs.
+
+Package: kmod-gpio-dev
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 1802
+Filename: kmod-gpio-dev_3.10.66-1_ralink.ipk
+Size: 2547
+MD5Sum: 59e8b3acbf5dde78ed455d26d20204d7
+SHA256sum: 54ffc1ffdaeb3e4758cf36403054df102f6025e56558dcc9974fc1ed76094b5a
+Description:  Kernel module to allows control of GPIO pins using a character device.
+
+Package: kmod-gre
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ipv6, kmod-iptunnel
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 7400
+Filename: kmod-gre_3.10.66-1_ralink.ipk
+Size: 8134
+MD5Sum: 52d0cfbca9669c21c9c246d629c42f6c
+SHA256sum: dc35f2222490daaf3021a43853e7ca97eb4344836fbeea3f28339016fddd3493
+Description:  Generic Routing Encapsulation support
+
+Package: kmod-hid-generic
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-hid
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 804
+Filename: kmod-hid-generic_3.10.66-1_ralink.ipk
+Size: 1401
+MD5Sum: 7b69a60fb1325c50fe2fd77269fe76f5
+SHA256sum: 68daf36a7e12ab2d0e8a66938b27ad5a96a73f2258b3002ec7683276e4c0efa9
+Description:  Generic HID device support
+
+Package: kmod-hid
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-input-core, kmod-input-evdev
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 40508
+Filename: kmod-hid_3.10.66-1_ralink.ipk
+Size: 41035
+MD5Sum: 63af599f98dfcdc85bcf7028b62b5e3b
+SHA256sum: 1c30f84bf81e685aa4d7077e855e6998cdb21123f49d511f112c5a367cbde056
+Description:  Kernel modules for HID devices
+
+Package: kmod-ifb
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 3123
+Filename: kmod-ifb_3.10.66-1_ralink.ipk
+Size: 3800
+MD5Sum: 5e519cee9bc5885e889ced1e13e4ee9d
+SHA256sum: 8b1cac6e70b506a783def354a64ed45be263e022c6a1b87b8614549529901319
+Description:  The Intermediate Functional Block
+
+Package: kmod-input-core
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 16405
+Filename: kmod-input-core_3.10.66-1_ralink.ipk
+Size: 16920
+MD5Sum: 682290253ffc7ac6276f7b935031bfc1
+SHA256sum: 8e144782219e2b937cee7f9994356f2f17dda3abe0c427cef6d026f48ecd0cd5
+Description:  Kernel modules for support of input device
+
+Package: kmod-input-evdev
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 6473
+Filename: kmod-input-evdev_3.10.66-1_ralink.ipk
+Size: 7188
+MD5Sum: 891539ed9b5476c8e39c897314163207
+SHA256sum: dc87f0c89cfe7d3b31cd0de1fec2c61856a52fba34c0b1c96f04ad8a80c7c1c1
+Description:  Kernel modules for support of input device events
+
+Package: kmod-ip6tables
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ipv6, kmod-ipt-core, kmod-ipt-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 19388
+Filename: kmod-ip6tables_3.10.66-1_ralink.ipk
+Size: 20079
+MD5Sum: 44ab7d85b18bd6983b3907affcdb9b4d
+SHA256sum: 7f573a82598ac0a8cf6b898a5819b5c5a5845f43f215708bfcb6fc0d2d0258f7
+Description:  Netfilter IPv6 firewalling support
+
+Package: kmod-ipt-compat-xtables
+Version: 3.10.66+2.3-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ipt-core, kmod-ip6tables
+Source: package/network/utils/xtables-addons
+Section: kernel
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ralink
+Installed-Size: 1693
+Filename: kmod-ipt-compat-xtables_3.10.66+2.3-1_ralink.ipk
+Size: 2349
+MD5Sum: 2b2685a597cbd4d16a2dd3f513c8ad9f
+SHA256sum: 5151b2c149bdab06a7c900c23a973d656aa746fd6af60b77d44d96cc7b35a850
+Description:  API compatibilty layer netfilter module
+
+Package: kmod-ipt-conntrack-extra
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ipt-core, kmod-ipt-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 9894
+Filename: kmod-ipt-conntrack-extra_3.10.66-1_ralink.ipk
+Size: 10560
+MD5Sum: 421a033341ebda7b603deb4c36decaa1
+SHA256sum: 9af90cd96626748a561590b9f9241fd876311e1c12ad78d9315233f51f5cb324
+Description:  Netfilter (IPv4) extra kernel modules for connection tracking
+ Includes:
+ - connbytes
+ - connmark/CONNMARK
+ - conntrack
+ - helper
+ - recent
+
+Package: kmod-ipt-conntrack
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 37361
+Filename: kmod-ipt-conntrack_3.10.66-1_ralink.ipk
+Size: 37994
+MD5Sum: 4fede14ec45a2b44476a9de220974303
+SHA256sum: 1a15f40da4cc3944a2d1957941b900fd7af640ca162fd8382d410f25e076154d
+Description:  Netfilter (IPv4) kernel modules for connection tracking
+ Includes:
+ - conntrack
+ - defrag
+ - iptables_raw
+ - NOTRACK
+ - state
+
+Package: kmod-ipt-core
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 31115
+Filename: kmod-ipt-core_3.10.66-1_ralink.ipk
+Size: 31744
+MD5Sum: d8151f4a56a99c959f3fcd226681a8fd
+SHA256sum: 4066c5a3de1a6bcc3bd58646701ba622d0830da0efe2d3b665a60290f478809c
+Description:  Netfilter core kernel modules
+ Includes:
+ - comment
+ - limit
+ - LOG
+ - mac
+ - multiport
+ - REJECT
+ - TCPMSS
+
+Package: kmod-ipt-filter
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ipt-core, kmod-lib-textsearch, kmod-ipt-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 1108
+Filename: kmod-ipt-filter_3.10.66-1_ralink.ipk
+Size: 1776
+MD5Sum: 37b01cb2f1090e8ece7860f7bca57b5e
+SHA256sum: 65d79b12a11e92d115f1d9948118e3a208f771e2d3c7347d259daad8691cbaaa
+Description:  Netfilter (IPv4) kernel modules for packet content inspection
+ Includes:
+ - layer7
+ - string
+
+Package: kmod-ipt-ipopt
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 5959
+Filename: kmod-ipt-ipopt_3.10.66-1_ralink.ipk
+Size: 6640
+MD5Sum: cca0c00fc5f74a50b89e1b9d6b46b07c
+SHA256sum: 84412c6350fe4379c530e25be5ad0a5e8d1b076f53c5f36903b618e0ee98585a
+Description:  Netfilter (IPv4) modules for matching/changing IP packet options
+ Includes:
+ - CLASSIFY
+ - dscp/DSCP
+ - ecn/ECN
+ - hl/HL
+ - length
+ - mark/MARK
+ - statistic
+ - tcpmss
+ - time
+ - ttl/TTL
+ - unclean
+
+Package: kmod-ipt-ipp2p
+Version: 3.10.66+2.3-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: package/network/utils/xtables-addons
+Section: kernel
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ralink
+Installed-Size: 5167
+Filename: kmod-ipt-ipp2p_3.10.66+2.3-1_ralink.ipk
+Size: 5783
+MD5Sum: 6a2abd4551cd166582cd88640258fc84
+SHA256sum: d2c7b4ee5a793809c9f2376a5d1ac7abe6b1da064f7c22b360f12a6e4f4e3098
+Description:  IPP2P netfilter module
+
+Package: kmod-ipt-ipset
+Version: 3.10.66+6.20.1-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ipt-core, kmod-nfnetlink
+Source: package/network/utils/ipset
+Section: kernel
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ralink
+Installed-Size: 87171
+Filename: kmod-ipt-ipset_3.10.66+6.20.1-1_ralink.ipk
+Size: 87543
+MD5Sum: 52d405532d6a727cc82c805f5c9a3766
+SHA256sum: 815939173d6d6717389b4d0405b40465c8f469c5923b9375177316a3e34f294f
+Description:  IPset netfilter modules
+
+Package: kmod-ipt-nat-extra
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ipt-core, kmod-ipt-nat
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 1324
+Filename: kmod-ipt-nat-extra_3.10.66-1_ralink.ipk
+Size: 1994
+MD5Sum: 9e4674f12107cd8c1c3b518f77e0d740
+SHA256sum: 271dad5ae5ceeb8468ff084587e7edec17b1e22e8b88d6aa3210ed576afb4676
+Description:  Netfilter (IPv4) kernel modules for extra NAT targets
+ Includes:
+ - NETMAP
+ - REDIRECT
+
+Package: kmod-ipt-nat
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ipt-core, kmod-ipt-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 13515
+Filename: kmod-ipt-nat_3.10.66-1_ralink.ipk
+Size: 14151
+MD5Sum: 55d1f5971d4bc20356b2b11098301879
+SHA256sum: 838e36d2ae4e1f20aa844dc386c03d44532ad1fee4edcdf9d317c79a9793c461
+Description:  Netfilter (IPv4) kernel modules for basic NAT targets
+ Includes:
+ - MASQUERADE
+
+Package: kmod-ipt-nathelper-extra
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ipt-core, kmod-ipt-nat, kmod-lib-textsearch
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 49287
+Filename: kmod-ipt-nathelper-extra_3.10.66-1_ralink.ipk
+Size: 50039
+MD5Sum: 3e1e883adbdeb739a8d1d7d182b0dd48
+SHA256sum: 705f9252d641259b914fc80a1d02fcb86b870511a6f1295d080aeb8732e8ae0f
+Description:  Extra Netfilter (IPv4) Conntrack and NAT helpers
+ Includes:
+ - amanda
+ - h323
+ - mms
+ - pptp
+ - proto_gre
+ - sip
+ - snmp_basic
+ - broadcast
+
+Package: kmod-ipt-nathelper
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ipt-core, kmod-ipt-nat
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 7819
+Filename: kmod-ipt-nathelper_3.10.66-1_ralink.ipk
+Size: 8495
+MD5Sum: 8dceee5c4812b6454988dedf63023fdd
+SHA256sum: e9245f0b4283e877eb585608f85ef0abc44b73e947f9f8ad5798a658319bb707
+Description:  Default Netfilter (IPv4) Conntrack and NAT helpers
+ Includes:
+ - ftp
+ - irc
+ - tftp
+
+Package: kmod-iptunnel4
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 1846
+Filename: kmod-iptunnel4_3.10.66-1_ralink.ipk
+Size: 2565
+MD5Sum: 1ad1904de214cadf387754c1bc3c1737
+SHA256sum: 697db065aacecaa109594f55082d5cf86ca1f23e2755f5da35056cbe4320e532
+Description:  Kernel modules for IPv4 tunneling
+
+Package: kmod-iptunnel
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 7876
+Filename: kmod-iptunnel_3.10.66-1_ralink.ipk
+Size: 8564
+MD5Sum: 2e92cf7bd1cd1853469cdc9a6d0adecc
+SHA256sum: 6a1dc66018cf2042df0e54cf14d1cba761784e292a7afb89c9bfd50d8396f9f0
+Description:  Kernel module for generic IP tunnel support
+
+Package: kmod-ipv6
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 151303
+Filename: kmod-ipv6_3.10.66-1_ralink.ipk
+Size: 151483
+MD5Sum: 5beabbfcff19a42e8a395747d68793aa
+SHA256sum: 754aff93158d059c2109bf32fe2d8ae660a6bb8bc7d8a1b4f505f40475f17873
+Description:  Kernel modules for IPv6 support
+
+Package: kmod-leds-gpio
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 2181
+Filename: kmod-leds-gpio_3.10.66-1_ralink.ipk
+Size: 2863
+MD5Sum: bde7463f6f68e98b31f7509197a4c7d1
+SHA256sum: e0c5b4aa76e7455355b03a4d2b668013d9ef800afc0e4d51cc12163fdee195f5
+Description:  Kernel module for LEDs on GPIO lines
+
+Package: kmod-ledtrig-gpio
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 2308
+Filename: kmod-ledtrig-gpio_3.10.66-1_ralink.ipk
+Size: 2997
+MD5Sum: b7d237fcc41bbbf54ed12d3ff2175b25
+SHA256sum: 6fbadfb717756f2d26a003b170d1023a38d8c3582d48e877b939398212813e27
+Description:  Kernel module that allows LEDs to be controlled by gpio events
+
+Package: kmod-ledtrig-heartbeat
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 1559
+Filename: kmod-ledtrig-heartbeat_3.10.66-1_ralink.ipk
+Size: 2269
+MD5Sum: 6cf2dc1e58615f54c256256e35b4f3b1
+SHA256sum: abb4785e1cdec3bb2de29744d27c01787eabedb5082c1c35f406b793d7eb075b
+Description:  LED Heartbeat Trigger
+
+Package: kmod-ledtrig-netdev
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 104
+Filename: kmod-ledtrig-netdev_3.10.66-1_ralink.ipk
+Size: 692
+MD5Sum: 166c18aa4ec3cb7c501dc0687e16629f
+SHA256sum: 0235e489f05b5278a090916acb70defe005798c8ec3ad287b7ea2e56ff050f91
+Description:  Kernel module to drive LEDs based on network activity
+
+Package: kmod-ledtrig-timer
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 105
+Filename: kmod-ledtrig-timer_3.10.66-1_ralink.ipk
+Size: 709
+MD5Sum: cf2b610f7e796348611e18a80439c160
+SHA256sum: e274230ab7a29ff630b056e756f3ffefcbbd011c116a2c0df0b00aa7fab8d59f
+Description:  Kernel module that allows LEDs to be controlled by a programmable timer
+ via sysfs
+
+Package: kmod-ledtrig-usbdev
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 2153
+Filename: kmod-ledtrig-usbdev_3.10.66-1_ralink.ipk
+Size: 2901
+MD5Sum: ffd848aa82e04d67a34654c64a9c2f35
+SHA256sum: bfb92ebfeb54edeb5506663612c579496a51beb31c6001262b18d1dc90ddc053
+Description:  Kernel module to drive LEDs based on USB device presence/activity
+
+Package: kmod-lib-crc-ccitt
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 1299
+Filename: kmod-lib-crc-ccitt_3.10.66-1_ralink.ipk
+Size: 1899
+MD5Sum: cfc449311f5afde13f268f2ae8511dab
+SHA256sum: 0ec2e7db5ba95e97f1f31205c288d9bd6eb5f52fa9bee891faee7d8bf70ed835
+Description:  Kernel module for CRC-CCITT support
+
+Package: kmod-lib-crc-itu-t
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 1312
+Filename: kmod-lib-crc-itu-t_3.10.66-1_ralink.ipk
+Size: 1921
+MD5Sum: 244d07de5a6f191a1c7514e1262ad7e6
+SHA256sum: f4bb3c73e970cc38a0a1df8f37020b2b8a0db5e814f2a77ac3090de5a050ba27
+Description:  Kernel module for CRC ITU-T V.41 support
+
+Package: kmod-lib-crc16
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 1229
+Filename: kmod-lib-crc16_3.10.66-1_ralink.ipk
+Size: 1826
+MD5Sum: 1f494ee36dacab5c93f0517fbf17b436
+SHA256sum: 4449c35fcf82de215706c6fb0ffad614c32a43288e3b2c3227d7f4e176c58458
+Description:  Kernel module for CRC16 support
+
+Package: kmod-lib-crc32c
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-crypto-crc32c
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 989
+Filename: kmod-lib-crc32c_3.10.66-1_ralink.ipk
+Size: 1597
+MD5Sum: f9d0a4686c98c910186b57121db6d296
+SHA256sum: 129fa6e13ce2bf15cdd68675bed1de587bd26c95a6dc44c82a8c672a7aca924d
+Description:  Kernel module for CRC32 support
+
+Package: kmod-lib-oid-registry
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 105
+Filename: kmod-lib-oid-registry_3.10.66-1_ralink.ipk
+Size: 688
+MD5Sum: e949389b03aec800e1473220f73d6349
+SHA256sum: 68d481e8d11c174db5765216d7da537e864d792e38efd81036beee6b0cd0136c
+Description:  Kernel module for OID-Registry function support
+
+Package: kmod-lib-textsearch
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 3513
+Filename: kmod-lib-textsearch_3.10.66-1_ralink.ipk
+Size: 4100
+MD5Sum: 120938bbef7883bb72b2ec0f934fa034
+SHA256sum: 21368b2c56d8a7efc55ac7e7cb93091b6e85cf8b722f28ff88932480085ef75d
+Description:  Textsearch support
+
+Package: kmod-mac80211
+Version: 3.10.66+2014-05-22-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-crypto-core, kmod-crypto-arc4, kmod-crypto-aes, kmod-cfg80211, hostapd-common
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 202188
+Filename: kmod-mac80211_3.10.66+2014-05-22-1_ralink.ipk
+Size: 201831
+MD5Sum: 88dffad8268c7da86d85aa606cc88d52
+SHA256sum: 2d0210282b2b2bade859ddd14301b8019c0a42274bd59f35838872b876dcfdac
+Description:  Generic IEEE 802.11 Networking Stack (mac80211)
+
+Package: kmod-macvlan
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 5928
+Filename: kmod-macvlan_3.10.66-1_ralink.ipk
+Size: 6579
+MD5Sum: dfa4f41456eb38b80b4cf00c13866a65
+SHA256sum: 7800ae78ee0357bda83be1168695b177c7cb99c7a6d12e0273ba089365c60340
+Description:  A kernel module which allows one to create virtual interfaces that
+ map packets to or from specific MAC addresses to a particular interface
+
+Package: kmod-nfnetlink
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 2643
+Filename: kmod-nfnetlink_3.10.66-1_ralink.ipk
+Size: 3253
+MD5Sum: 85f2b652ecf1d9c343d91ec7fd145a9b
+SHA256sum: ace500e95aca9fde9f379a1940e4d6e5fc64133eb45b7983df0e5d479a2ec1ff
+Description:  Kernel modules support for a netlink-based userspace interface
+
+Package: kmod-nls-base
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 3035
+Filename: kmod-nls-base_3.10.66-1_ralink.ipk
+Size: 3620
+MD5Sum: 382479f29ba62fccbfc3cdcf8fd52304
+SHA256sum: de1c7e6bdd8e3c850497f75cc7521bb1fd44b3af548026d04f0ba1cff91522cb
+Description:  Kernel module for NLS (Native Language Support)
+
+Package: kmod-nls-cp437
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 2062
+Filename: kmod-nls-cp437_3.10.66-1_ralink.ipk
+Size: 2785
+MD5Sum: 9a0fba38b79cde478fe6235426fac1a1
+SHA256sum: 61f9eb4a2f9a77d5fad0cdb6e717381f127b6ff4d48773b9f222b81af3846be9
+Description:  Kernel module for NLS Codepage 437 (United States, Canada)
+
+Package: kmod-nls-cp936
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 85642
+Filename: kmod-nls-cp936_3.10.66-1_ralink.ipk
+Size: 86114
+MD5Sum: 1fc99db78b6a2d1ae294f629bdfba097
+SHA256sum: 4ad22b313d4589a1e1704f96fe3162025940c6c9970c10624e3d152aadc262cb
+Description:  Codepage 936 (Chinese GBK)
+
+Package: kmod-nls-iso8859-1
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 1690
+Filename: kmod-nls-iso8859-1_3.10.66-1_ralink.ipk
+Size: 2430
+MD5Sum: 1d1e361f7fbf8c7becdeee1a8a9ba40b
+SHA256sum: 7066e69265fc122f134c56e1818f1ea0011c631b20bd7cf454a493d6c58f7fbd
+Description:  Kernel module for NLS ISO 8859-1 (Latin 1)
+
+Package: kmod-nls-utf8
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 985
+Filename: kmod-nls-utf8_3.10.66-1_ralink.ipk
+Size: 1702
+MD5Sum: b0abca302112fb0252b84da74e3036d1
+SHA256sum: 5a892049633061229ee7405eae0b84f33f4a708ca2753b582236f9b1b92e9baa
+Description:  Kernel module for NLS UTF-8
+
+Package: kmod-p54-common
+Version: 3.10.66+2014-05-22-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-mac80211, kmod-lib-crc-ccitt
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 18355
+Filename: kmod-p54-common_3.10.66+2014-05-22-1_ralink.ipk
+Size: 19007
+MD5Sum: bdb597f57e9901911cc5979ead49db7e
+SHA256sum: 66dc774d578365b5df076f710ed79bcc65ae1d61a1d22f4c8de68bbb7b5cb699
+Description:  Prism54 Drivers (COMMON)
+
+Package: kmod-p54-usb
+Version: 3.10.66+2014-05-22-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-core, kmod-p54-common
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 31559
+Filename: kmod-p54-usb_3.10.66+2014-05-22-1_ralink.ipk
+Size: 32172
+MD5Sum: 34be24c47e1f8d8a70240580230f0ee1
+SHA256sum: 14aa8800bf423fc9fda980809a5456070f65686ff8a0dc039cfcd9801b9842c9
+Description:  Prism54 Drivers (USB)
+
+Package: kmod-ppp
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-lib-crc-ccitt, kmod-slhc
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 20405
+Filename: kmod-ppp_3.10.66-1_ralink.ipk
+Size: 20963
+MD5Sum: 4cab54d496e9e53f0b3a4b4b64f9a54e
+SHA256sum: 957ca5b1fe68a07b683ad8be6600b0bd2f33b0a552bf053447a70d6bc8459aa6
+Description:  Kernel modules for PPP support
+
+Package: kmod-pppoe
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ppp, kmod-pppox
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 6524
+Filename: kmod-pppoe_3.10.66-1_ralink.ipk
+Size: 7100
+MD5Sum: ee80115b62848941f98a35f3b31180ea
+SHA256sum: bc8513900fac0bf5c7c0f79407a4e1fd7ef679d01dcdb4c9a80e9bf82cfe0f8c
+Description:  Kernel module for PPPoE (PPP over Ethernet) support
+
+Package: kmod-pppox
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ppp
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 1531
+Filename: kmod-pppox_3.10.66-1_ralink.ipk
+Size: 2150
+MD5Sum: 1ef97ec2e1fa29509bc00a8e2d9de016
+SHA256sum: ecb5ad3010fca14705f960e0b06d7301470581d062722adc3bdd16cc3d23aeda
+Description:  Kernel helper module for PPPoE and PPTP support
+
+Package: kmod-rt2800-lib
+Version: 3.10.66+2014-05-22-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-rt2x00-lib, kmod-lib-crc-ccitt
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 37591
+Filename: kmod-rt2800-lib_3.10.66+2014-05-22-1_ralink.ipk
+Size: 37643
+MD5Sum: f02db00da307f8421badc491dc245a12
+SHA256sum: 561294542868c577ece1937c634c5fddfd4d5fcadc573ae140d53f119a2735af
+Description:  Ralink Drivers for RT2x00 cards (rt2800 LIB)
+
+Package: kmod-rt2800-usb
+Version: 3.10.66+2014-05-22-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-rt2x00-usb, kmod-rt2800-lib, kmod-lib-crc-ccitt
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 9931
+Filename: kmod-rt2800-usb_3.10.66+2014-05-22-1_ralink.ipk
+Size: 10573
+MD5Sum: 79e6d0e95a4c49495520a43656ea884d
+SHA256sum: ef9e843410e2a09e967acb2c9e29e2124ea7965c87df43852ebf317d12320c31
+Description:  Ralink Drivers for RT2x00 cards (RT2870 USB)
+
+Package: kmod-rt2860v2
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), wireless-tools, maccalc
+Source: package/ralink/drivers/rt2860v2
+Section: kernel
+Architecture: ralink
+Installed-Size: 386326
+Filename: kmod-rt2860v2_3.10.66-1_ralink.ipk
+Size: 385524
+MD5Sum: fe8c15896b2928b6914e5c8a7de0fbab
+SHA256sum: ca875c4015ba8f03bc540e27e88c306c161ec3949804f04963d972c187829a5e
+Description:  Ralink RT2860v2 AP driver
+
+Package: kmod-rt2x00-lib
+Version: 3.10.66+2014-05-22-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-mac80211, kmod-lib-crc-itu-t
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 20338
+Filename: kmod-rt2x00-lib_3.10.66+2014-05-22-1_ralink.ipk
+Size: 20976
+MD5Sum: e00f006da11542fde56934f3564c949b
+SHA256sum: e9b0d5fdb9fb0ac2b05faf90748081b4c7156da5b47f1f2599465d352c8398bc
+Description:  Ralink Drivers for RT2x00 cards (LIB)
+
+Package: kmod-rt2x00-usb
+Version: 3.10.66+2014-05-22-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-rt2x00-lib, kmod-usb-core
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 5913
+Filename: kmod-rt2x00-usb_3.10.66+2014-05-22-1_ralink.ipk
+Size: 6542
+MD5Sum: e2d8384793486e9d1ee9379f1b332b68
+SHA256sum: c2fd6c802bfdceda77954d56feeccd94eb366e7180c51aa02c2179010631cf1c
+Description:  Ralink Drivers for RT2x00 cards (USB)
+
+Package: kmod-rt73-usb
+Version: 3.10.66+2014-05-22-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-rt2x00-usb
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 12612
+Filename: kmod-rt73-usb_3.10.66+2014-05-22-1_ralink.ipk
+Size: 13195
+MD5Sum: fcb1f38e8c33d8dac16e77e03384e113
+SHA256sum: b8937df5138402dd458ddcfc4e8378c6ca00e502a54dd0bef3a0deb57449b8fc
+Description:  Ralink Drivers for RT2x00 cards (RT73 USB)
+
+Package: kmod-rtl8187
+Version: 3.10.66+2014-05-22-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-eeprom-93cx6, kmod-mac80211, kmod-usb-core
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 21340
+Filename: kmod-rtl8187_3.10.66+2014-05-22-1_ralink.ipk
+Size: 21925
+MD5Sum: 13141508755573b7e124a3daabac0372
+SHA256sum: 185de95a6cc1ded3d8900d6ed00a64559dac358bd89c4db0e0eadd0c89af2bb3
+Description:  Realtek Drivers for RTL818x devices (RTL8187 USB)
+
+Package: kmod-sched-connmark
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-sched-core, kmod-ipt-core, kmod-ipt-conntrack-extra
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 1349
+Filename: kmod-sched-connmark_3.10.66-1_ralink.ipk
+Size: 2100
+MD5Sum: 78b9a47a80b9130dad30c5a7e5ac7234
+SHA256sum: 4c55c246dd015422aadba8b669bb6f870531cf2a7066c7c591bb32ed810a3fa2
+Description:  Traffic shaper conntrack mark support
+
+Package: kmod-sched-core
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 28473
+Filename: kmod-sched-core_3.10.66-1_ralink.ipk
+Size: 29148
+MD5Sum: a055e953466642bae52899ecff38dad8
+SHA256sum: 3892af5b59cf564d54b56fa73f2818be46ebe9084b15cdbcc8c5335d2b016590
+Description:  Core kernel scheduler support for IP traffic
+
+Package: kmod-sched
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-sched-core, kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 44086
+Filename: kmod-sched_3.10.66-1_ralink.ipk
+Size: 44808
+MD5Sum: 9e4dda4bb5313ad9e80682954d0959a1
+SHA256sum: 3fc0ae76f40403dcd8c1dde1cc9c3f0249fc413b3fdc88c25648c7cb435a27a9
+Description:  Extra kernel schedulers modules for IP traffic
+
+Package: kmod-scsi-core
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 69970
+Filename: kmod-scsi-core_3.10.66-1_ralink.ipk
+Size: 70460
+MD5Sum: cf260d184b91169200150b7e95700a42
+SHA256sum: ffaffb64171f18d3d310d284a2eb189ec658396b6b75112388ac45b060a4f06d
+Description:  SCSI device support
+
+Package: kmod-sit
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-ipv6, kmod-iptunnel, kmod-iptunnel4
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 9388
+Filename: kmod-sit_3.10.66-1_ralink.ipk
+Size: 10087
+MD5Sum: d38354bbe27de5b2eea58228ac218d6e
+SHA256sum: ef2f97ba0f0f50ba3ff690ec72137d57c692618319e3c41d487560a3bb1fc059
+Description:  Kernel modules for IPv6-in-IPv4 tunnelling
+
+Package: kmod-slhc
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-lib-crc-ccitt
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 3310
+Filename: kmod-slhc_3.10.66-1_ralink.ipk
+Size: 3930
+MD5Sum: a34a6e4491a49d7817902646ccedd4b7
+SHA256sum: e96cc75af66965b168a8aeaa29c1b47754d21d51d4a43f982549528cdc28b64d
+Description:  Serial Line Header Compression
+
+Package: kmod-sound-core
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 125636
+Filename: kmod-sound-core_3.10.66-1_ralink.ipk
+Size: 126038
+MD5Sum: e38c87fbed558d6851bcb911a6def669
+SHA256sum: 03d3853395aab4c9ab5199b5645003a370f023511b47cec75d192e4817863c06
+Description:  Kernel modules for sound support
+
+Package: kmod-tun
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 12073
+Filename: kmod-tun_3.10.66-1_ralink.ipk
+Size: 12788
+MD5Sum: be5d5ad1f1fa29d5c5c61a62b5999ecd
+SHA256sum: 61b6ca3c57ff37bf3fcb2918d23480de4fbe169a569264592f75196beae9394f
+Description:  Kernel support for the TUN/TAP tunneling device
+
+Package: kmod-usb-audio
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-core, kmod-sound-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 61343
+Filename: kmod-usb-audio_3.10.66-1_ralink.ipk
+Size: 61629
+MD5Sum: 16b39cda1eadb9b1f01f1a056190e936
+SHA256sum: 4efbbd1a7104e49f106ca707eaf5dab8f6ea03ea390ec7cfbc3d06b1a3314f1a
+Description:  Kernel support for USB audio devices
+
+Package: kmod-usb-cm109
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-core, kmod-input-core, kmod-input-evdev
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 4854
+Filename: kmod-usb-cm109_3.10.66-1_ralink.ipk
+Size: 5444
+MD5Sum: b48e0a3ac5676121a2dd928a901fa832
+SHA256sum: 3184776acd425dccdf83be7a51038cba386570f05166b004ee03c62a660e8780
+Description:  Kernel support for CM109 VOIP phone
+
+Package: kmod-usb-core
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 70822
+Filename: kmod-usb-core_3.10.66-1_ralink.ipk
+Size: 71309
+MD5Sum: 110038caca179d9fec814efc5241baf9
+SHA256sum: fa15f4c2cf305d5bafd06e05b46fe72e0185b993288d1692d890a666c1475f3c
+Description:  Kernel support for USB
+
+Package: kmod-usb-dwc2
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 29401
+Filename: kmod-usb-dwc2_3.10.66-1_ralink.ipk
+Size: 30120
+MD5Sum: 9f02854194ebc15e0f66c9212fb6eb96
+SHA256sum: ffbebe1b0a700796126a1002a3eb0487cf92844cbe481d427556ac25b343c66a
+Description:  This driver provides USB Device Controller support for the
+ Synopsys DesignWare USB OTG Core
+
+Package: kmod-usb-hid
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-core, kmod-hid, kmod-hid-generic, kmod-input-core, kmod-input-evdev
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 16913
+Filename: kmod-usb-hid_3.10.66-1_ralink.ipk
+Size: 17530
+MD5Sum: bbeb452351f06b1dae45e57e4e2f234d
+SHA256sum: f7e6c2cf7aeee89acabf69b4d65ab52f5ca2d1ba5371602d13d054adff16e82d
+Description:  Kernel support for USB HID devices such as keyboards and mice
+
+Package: kmod-usb-printer
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 6796
+Filename: kmod-usb-printer_3.10.66-1_ralink.ipk
+Size: 7423
+MD5Sum: 55530f3e427edd4d6ecde3b545497590
+SHA256sum: 78d0038eb328bc8bd7c9fbb18a226f74ea7acc52142a5f9572fa69a7c8778f82
+Description:  Kernel support for USB printers
+
+Package: kmod-usb-serial-ftdi
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-serial
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 10772
+Filename: kmod-usb-serial-ftdi_3.10.66-1_ralink.ipk
+Size: 11178
+MD5Sum: 195007030fcc883e258b74c5f27515fa
+SHA256sum: 373ba457dbc09354edf0ec252e4560d3e341ab6cea5604e44dd6c3a32403a435
+Description:  Kernel support for FTDI USB-to-Serial converters
+
+Package: kmod-usb-serial-option
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-serial-wwan, kmod-usb-serial
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 5600
+Filename: kmod-usb-serial-option_3.10.66-1_ralink.ipk
+Size: 5351
+MD5Sum: 607cb278e1ae5cf49d38dd9d4e8ddbef
+SHA256sum: 0eb1f604d6509a7245483ac7a8aa229a29679bc471a059459be5fc76edc9fe48
+Description:  Kernel support for Option HSDPA modems
+
+Package: kmod-usb-serial-qualcomm
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-serial, kmod-usb-serial-wwan
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 2124
+Filename: kmod-usb-serial-qualcomm_3.10.66-1_ralink.ipk
+Size: 2738
+MD5Sum: 3d2d05ef45e84d73dd37774ee9cf6b83
+SHA256sum: 943e049414d6d39f738af7091a8814f91e08020514e2e0ae16b3cb1eaaf6a4de
+Description:  Kernel support for Qualcomm USB Serial devices (Gobi)
+
+Package: kmod-usb-serial-sierrawireless
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-serial
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 4563
+Filename: kmod-usb-serial-sierrawireless_3.10.66-1_ralink.ipk
+Size: 5155
+MD5Sum: dc04abcd9e37b18bfbb7715ca8e9b55f
+SHA256sum: 4f967432fa451c91cfa64c96feec412d8da5ccca5c6e9995554e27bcb87bce3e
+Description:  Kernel support for Sierra Wireless devices
+
+Package: kmod-usb-serial-wwan
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-serial
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 3873
+Filename: kmod-usb-serial-wwan_3.10.66-1_ralink.ipk
+Size: 4471
+MD5Sum: 771da734c42e551b2890621e745fa99d
+SHA256sum: a0b0ecd0310e97ef5c230e14f85234f39a10754e5e132bbbce0c2920082cf875
+Description:  Kernel support for USB GSM and CDMA modems
+
+Package: kmod-usb-serial
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 12983
+Filename: kmod-usb-serial_3.10.66-1_ralink.ipk
+Size: 13574
+MD5Sum: 8fd8996568cbe2dc4c9dc9dce625e846
+SHA256sum: 49860fd7054f1d836448732388bd45e6fe5ac11cbcd8fdf2870675b692c5117d
+Description:  Kernel support for USB-to-Serial converters
+
+Package: kmod-usb-storage
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-scsi-core, kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 21418
+Filename: kmod-usb-storage_3.10.66-1_ralink.ipk
+Size: 21569
+MD5Sum: e47fba99e168ab21bb148327763660cd
+SHA256sum: c2ce235eece2f53381d9ce26e9c23a88186a03d124ee101848fae56b34467587
+Description:  Kernel support for USB Mass Storage devices
+
+Package: kmod-video-core
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 49866
+Filename: kmod-video-core_3.10.66-1_ralink.ipk
+Size: 50321
+MD5Sum: e6a26f86cc972718c219367fdb21ba42
+SHA256sum: 9eef04ad11d9351304b24a034ef5d7194bb1a01c5bddafdd68911e6726720e0e
+Description:  Kernel modules for Video4Linux support
+
+Package: kmod-video-gspca-core
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-core, kmod-input-core, kmod-video-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 13996
+Filename: kmod-video-gspca-core_3.10.66-1_ralink.ipk
+Size: 14635
+MD5Sum: da15b14267e46532c7b24693615f92be
+SHA256sum: e101ee03fcb764242c8da20bdb54624a16f575a14c89748080531942fb95b2a8
+Description:  Kernel modules for supporting GSPCA based webcam devices. Note this is just
+ the core of the driver, please select a submodule that supports your webcam.
+
+Package: kmod-video-gspca-sunplus
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-video-gspca-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 5893
+Filename: kmod-video-gspca-sunplus_3.10.66-1_ralink.ipk
+Size: 6526
+MD5Sum: 28b7ba57ab40afad25a65eee698bd8f3
+SHA256sum: 43fbc7ce179d46e78d4c27782fb62a0ef09ab54ed9863c5b79ce3c5243c76530
+Description:  The SUNPLUS USB Camera Driver (sunplus) kernel module
+
+Package: kmod-video-gspca-zc3xx
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-video-gspca-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 14868
+Filename: kmod-video-gspca-zc3xx_3.10.66-1_ralink.ipk
+Size: 15447
+MD5Sum: 1723a9820756f83aa38f615e1e4094c0
+SHA256sum: 6072a0256d7e10c72c729000159d35e9cb4ff8799ca8efd6dc5d7a1111be8975
+Description:  The ZC3XX USB Camera Driver (zc3xx) kernel module
+
+Package: kmod-video-uvc
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-usb-core, kmod-video-videobuf2, kmod-video-core, kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 39244
+Filename: kmod-video-uvc_3.10.66-1_ralink.ipk
+Size: 39842
+MD5Sum: 8c323a6b27252a9895c0c4d7ea0e5488
+SHA256sum: 358e206e2a8f620def69b921b600ded0eed5ed8840fdc7e8052f1aae62aaf7bf
+Description:  Kernel modules for supporting USB Video Class (UVC) devices
+
+Package: kmod-video-videobuf2
+Version: 3.10.66-1
+Depends: kernel (=3.10.66-1-7c2382199067433be13c99eeb6ae1e77), kmod-video-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ralink
+Installed-Size: 17052
+Filename: kmod-video-videobuf2_3.10.66-1_ralink.ipk
+Size: 17760
+MD5Sum: aeabc82b4f7e4880838c30af77c4e875
+SHA256sum: 0f1a764b7159531dd8cc8ecdcc6e4e2cd005807b9c6206eaa7ad56543d4fa90f
+Description:  Kernel modules that implements three basic types of media buffers.
+
+Package: libblkid
+Version: 2.24.1-1
+Depends: libc, libuuid
+Source: package/utils/util-linux
+License: GPLv2 LGPLv2.1 BSD-3c
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+Architecture: ralink
+Installed-Size: 91664
+Filename: libblkid_2.24.1-1_ralink.ipk
+Size: 92473
+MD5Sum: a371863c002d4faea69c0fb63dcfa474
+SHA256sum: e79d5f74076345d9236fd861fa3c7436ec41257f480c799ef68f9337251f6a1f
+Description:  The libblkid library is used to identify block devices (disks) as to their
+ content (e.g. filesystem type, partitions) as well as extracting additional
+ information such as filesystem labels/volume names, partitions, unique
+ identifiers/serial numbers...
+
+Package: libblobmsg-json
+Version: 2014-08-04-dffbc09baf71b294185a36048166d00066d433b5
+Depends: libc, libjson-c, libubox
+Source: package/libs/libubox
+License: ISC BSD-3c
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 3513
+Filename: libblobmsg-json_2014-08-04-dffbc09baf71b294185a36048166d00066d433b5_ralink.ipk
+Size: 4148
+MD5Sum: 84f4368e9b69874852abf85c4f4e6c16
+SHA256sum: 9858ca1b6edcbc6b5d5ea68b6e42949597a0b108303565a78668d70293bbbe64
+Description:  blobmsg <-> json conversion library
+
+Package: libcurl
+Version: 7.38.0-1
+Depends: libc, libpolarssl
+Source: package/network/utils/curl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Imre Kaloz <kaloz@openwrt.org>
+Architecture: ralink
+Installed-Size: 90949
+Filename: libcurl_7.38.0-1_ralink.ipk
+Size: 91716
+MD5Sum: d73a832c5f35e9210b90f0095cbb541c
+SHA256sum: 300a2ef51031ea5d3b114ce23e1440489af3fe486f317f1c28f0563fa3ea7d8c
+Description:  A client-side URL transfer library using PolarSSL
+
+Package: libevent2
+Version: 2.0.21-1
+Depends: libc
+Source: package/libs/libevent2
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ralink
+Installed-Size: 90750
+Filename: libevent2_2.0.21-1_ralink.ipk
+Size: 91699
+MD5Sum: 01aeb1d7f0671b4ad40e5634cc502aa1
+SHA256sum: 6cc964f1f48aca6a5ef17933a5ada2a59891400d036dcbb55712b94b34199692
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent shared library historically
+ containing both the core & extra libraries.
+
+Package: libext2fs
+Version: 1.42.4-1
+Depends: libc
+Source: package/utils/e2fsprogs
+Section: libs
+Architecture: ralink
+Installed-Size: 109741
+Filename: libext2fs_1.42.4-1_ralink.ipk
+Size: 110320
+MD5Sum: 1efa87ffc8e71f44885c6473efba4c50
+SHA256sum: b02c54c06743de8f3f2cf96986455c9db4e1679246c45ec2e4eb94cb51003464
+Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+
+Package: libgcc
+Version: 4.8-linaro-1
+Source: package/libs/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 31144
+Filename: libgcc_4.8-linaro-1_ralink.ipk
+Size: 31698
+MD5Sum: f1b1d6c284119c4b54331209436144a7
+SHA256sum: ec02cb10742d8feb2f3b4f624e891ef7eb88bb27a814e49432dc58a65e857d04
+Description:  GCC support library
+
+Package: libgmp
+Version: 6.0.0-1
+Depends: libc
+Source: package/libs/gmp
+Section: libs
+Architecture: ralink
+Installed-Size: 206299
+Filename: libgmp_6.0.0-1_ralink.ipk
+Size: 206855
+MD5Sum: d54d2e1653aea5c7ede283f62ae0b70c
+SHA256sum: 26b26204fc0c016ae671c557d0d09180d9296bad96add4a0c8712000210ce405
+Description:  GMP is a free library for arbitrary precision arithmetic, operating on
+ signed integers, rational numbers, and floating point numbers.
+
+Package: libip4tc
+Version: 1.4.21-1
+Depends: libc
+Source: package/network/utils/iptables
+Section: libs
+Architecture: ralink
+Installed-Size: 9758
+Filename: libip4tc_1.4.21-1_ralink.ipk
+Size: 10288
+MD5Sum: 2d66f77e39b92cfcfe2989d5f69de0ed
+SHA256sum: a2e69a6866d3fb4664b6cea31525e7820d1b114228e15d7dfd2f464a9cd6ce66
+Description:  IPv4 firewall - shared libiptc library
+
+Package: libip6tc
+Version: 1.4.21-1
+Depends: libc
+Source: package/network/utils/iptables
+Section: libs
+Architecture: ralink
+Installed-Size: 10078
+Filename: libip6tc_1.4.21-1_ralink.ipk
+Size: 10614
+MD5Sum: f05cd0a46e8fb5d1582f737688eec97c
+SHA256sum: 71c191272f89a7e4904636725bb9a6385498102af668a5b8a927d914d1ecb664
+Description:  IPv6 firewall - shared libiptc library
+
+Package: libiwinfo-lua
+Version: 51
+Depends: libc, libiwinfo, liblua
+Source: package/network/utils/iwinfo
+Section: lang
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ralink
+Installed-Size: 6104
+Filename: libiwinfo-lua_51_ralink.ipk
+Size: 6678
+MD5Sum: bc0521c38897cb4a6a8f0d0c0f5ac0c9
+SHA256sum: ab2d09d9620af952923132d2c730545821c8dac5988b519f7417033b4d3e0456
+Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
+ backends.
+
+Package: libiwinfo
+Version: 51
+Depends: libc, libnl-tiny
+Source: package/network/utils/iwinfo
+Section: libs
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ralink
+Installed-Size: 24709
+Filename: libiwinfo_51_ralink.ipk
+Size: 25335
+MD5Sum: bad8bc8075d5e0202eac0b29d928369b
+SHA256sum: 0590b5146dd258d2885249076e4d25068e096e3447ce16054ae9371c98b71bfd
+Description:  Wireless information library with consistent interface for proprietary Broadcom,
+ madwifi, nl80211 and wext driver interfaces.
+
+Package: libjson-c
+Version: 0.11-2
+Depends: libc
+Source: package/libs/libjson-c
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 12453
+Filename: libjson-c_0.11-2_ralink.ipk
+Size: 13070
+MD5Sum: 035f0fbb8572d9566558680b2654d129
+SHA256sum: 1e40b8ef39f530623a24e98be4639492b3b526cef5f553e7353564c09a2dd985
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script
+Version: 2014-08-04-dffbc09baf71b294185a36048166d00066d433b5
+Depends: libc, libubox
+Source: package/libs/libubox
+License: ISC BSD-3c
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 4649
+Filename: libjson-script_2014-08-04-dffbc09baf71b294185a36048166d00066d433b5_ralink.ipk
+Size: 5242
+MD5Sum: ee6f929d964f8d362d8a62bfadc1c3a8
+SHA256sum: 4b30b37a8573f7e597247954b38a7bb430d9da68e4ad35eaacea62e2a1dc2882
+Description:  Minimalistic JSON based scripting engine
+
+Package: liblua
+Version: 5.1.5-1
+Depends: libc
+Source: package/utils/lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ralink
+Installed-Size: 64069
+Filename: liblua_5.1.5-1_ralink.ipk
+Size: 64652
+MD5Sum: e29dca98c0529cb6f8dd63339a8b8796
+SHA256sum: 4dc17ab13b1db89e341bd486fa3410b7b12696fd3bc0b41cb9a567077d202b77
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libmnl
+Version: 1.0.3-1
+Depends: libc
+Source: package/libs/libmnl
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ralink
+Installed-Size: 5126
+Filename: libmnl_1.0.3-1_ralink.ipk
+Size: 6153
+MD5Sum: 2e384b012ac92fd9a5716a5db24672cb
+SHA256sum: fa9046f35b347116fde3012400cbd54f74b8e75bbb6eb58724b73c8c94550697
+Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
+ There are a lot of common tasks in parsing, validating, constructing of
+ both the Netlink header and TLVs that are repetitive and easy to get wrong.
+ This library aims to provide simple helpers that allows you to re-use code
+ and to avoid re-inventing the wheel. The main features of this library are:
+ .
+ * Small: the shared library requires around 30KB for an x86-based computer.
+ .
+ * Simple: this library avoids complexity and elaborated abstractions that
+ tend to hide Netlink details.
+ .
+ * Easy to use: the library simplifies the work for Netlink-wise developers.
+ It provides functions to make socket handling, message building, validating,
+ parsing and sequence tracking, easier.
+ .
+ * Easy to re-use: you can use the library to build your own abstraction layer
+ on top of this library.
+ .
+ * Decoupling: the interdependency of the main bricks that compose the library
+ is reduced, i.e. the library provides many helpers, but the programmer is not
+ forced to use them.
+
+Package: libncurses
+Version: 5.9-1
+Depends: libc, terminfo
+Source: package/libs/ncurses
+License: FREE
+LicenseFiles: README
+Section: libs
+Architecture: ralink
+Installed-Size: 115419
+Filename: libncurses_5.9-1_ralink.ipk
+Size: 113799
+MD5Sum: 67725ee84708b7c053020659f8071b41
+SHA256sum: 6ebf4e60e1d172380a73bab3bf4407777ea9f6afc3134d219fdd3d63333969e0
+Description:  Terminal handling library
+
+Package: libnettle
+Version: 2.7.1-1
+Depends: libc, libgmp
+Source: package/libs/nettle
+License: LGPLv2
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: ralink
+Installed-Size: 220651
+Filename: libnettle_2.7.1-1_ralink.ipk
+Size: 220717
+MD5Sum: 92aa3814ba5bebe2b3bef8f969bcc7c1
+SHA256sum: 123a4b397f657480ba1fa7b8c8c03920d8069cac13bd722f78354aca93125e13
+Description:  GNU crypto library
+
+Package: libnfnetlink
+Version: 1.0.1-1
+Depends: libc
+Source: package/libs/libnfnetlink
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ralink
+Installed-Size: 8126
+Filename: libnfnetlink_1.0.1-1_ralink.ipk
+Size: 8878
+MD5Sum: 59f7d1ced874136162b3cce0e1cb6afe
+SHA256sum: 49eab2f85e47024eddfeabd8b78719f334ab2468441132b1f3b73c3974afc644
+Description:  libnfnetlink is is the low-level library for netfilter related kernel/userspace communication.
+ It provides a generic messaging infrastructure for in-kernel netfilter subsystems
+ (such as nfnetlink_log, nfnetlink_queue, nfnetlink_conntrack) and their respective users
+ and/or management tools in userspace.
+
+Package: libnl-tiny
+Version: 0.1-3
+Depends: libc
+Source: package/libs/libnl-tiny
+License: GPLv2 LGPLv2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 11782
+Filename: libnl-tiny_0.1-3_ralink.ipk
+Size: 12371
+MD5Sum: abffe8f71341f21a17f2fce450686b09
+SHA256sum: 321b07f5f9eb5541840d5276548c85503dff6fd8924871114f29b6e7246a01a1
+Description:  This package contains a stripped down version of libnl
+
+Package: libopenssl
+Version: 1.0.2-2
+Depends: libc, zlib, libpthread
+Source: package/libs/openssl
+License: SSLEAY OPENSSL
+LicenseFiles: LICENSE
+Section: libs
+Architecture: ralink
+Installed-Size: 686173
+Filename: libopenssl_1.0.2-2_ralink.ipk
+Size: 680030
+MD5Sum: 98622b7bcc6e1233f04c61037f5bc6c1
+SHA256sum: f67409243872fb90c0f7edb98b92257c3525cdc173f16cd87895fe89a29e7bf5
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libpolarssl
+Version: 1.3.9-2
+Depends: libc
+Source: package/libs/polarssl
+License: GPL-2.0+
+Section: libs
+Architecture: ralink
+Installed-Size: 138189
+Filename: libpolarssl_1.3.9-2_ralink.ipk
+Size: 138587
+MD5Sum: 052c9856021cad93c5e27722435ba588
+SHA256sum: 0b58e1f25fc4743b2d5beee0b7baecbf782a1756f427e38d9765101ff738e7c4
+Description:  The aim of the PolarSSL project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the PolarSSL library.
+
+Package: libpthread
+Version: 0.9.33.2-1
+Depends: libgcc
+Source: package/libs/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 30332
+Filename: libpthread_0.9.33.2-1_ralink.ipk
+Size: 30902
+MD5Sum: ad595ab322ff2fc2cdabf7de1dd97f73
+SHA256sum: e12d9166bba367ee5fad5a0dbeabe41c64dad014d8fdd62c9d846d8ba8441cf8
+Description:  POSIX thread library
+
+Package: librt
+Version: 0.9.33.2-1
+Depends: libpthread
+Source: package/libs/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 4916
+Filename: librt_0.9.33.2-1_ralink.ipk
+Size: 5489
+MD5Sum: abd20ef677b4ddf70c2231780675b2a9
+SHA256sum: 0bf4a1112205e5e9fe49ef5d795a0b12838dead0a9e984d668b1d64dab114fa7
+Description:  POSIX.1b RealTime extension library
+
+Package: libubox
+Version: 2014-08-04-dffbc09baf71b294185a36048166d00066d433b5
+Depends: libc
+Source: package/libs/libubox
+License: ISC BSD-3c
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 14141
+Filename: libubox_2014-08-04-dffbc09baf71b294185a36048166d00066d433b5_ralink.ipk
+Size: 14744
+MD5Sum: 9341252fd1117f73dffdbb6c9ba2a267
+SHA256sum: 089efad64d717d58bc3b6f423502b53ac703271d52f5159e005e144ce3ff1830
+Description:  Basic utility library
+
+Package: libubus-lua
+Version: 2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3
+Depends: libc, libubus, liblua
+Source: package/system/ubus
+License: LGPLv2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 5587
+Filename: libubus-lua_2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3_ralink.ipk
+Size: 6207
+MD5Sum: 0f655285020b150f9c3a673a292545b2
+SHA256sum: 4da0a6b901fadc90feab259bff370e0867a7acc69dba9fe1caffb0b00fc52727
+Description:  Lua binding for the OpenWrt RPC client
+
+Package: libubus
+Version: 2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3
+Depends: libc, libubox
+Source: package/system/ubus
+License: LGPLv2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 8245
+Filename: libubus_2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3_ralink.ipk
+Size: 8876
+MD5Sum: 8431ee72469cc0731f966a0fefe7a508
+SHA256sum: 2dcf1f4c9d5570c584b5e1f2a2017f3480c328b32eb0ed7e691d4804faf7474c
+Description:  OpenWrt RPC client library
+
+Package: libuci-lua
+Version: 2014-04-11.1-1
+Depends: libc, libuci, liblua
+Source: package/system/uci
+License: LGPLv2.1 GPLv2
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 5759
+Filename: libuci-lua_2014-04-11.1-1_ralink.ipk
+Size: 6331
+MD5Sum: 2bab37eb8008753ff9607340e555fbf6
+SHA256sum: aeb5e85855f592cc64ae7f59eead204becdcf559e7c73e8631aa81d788abd532
+Description:  Lua plugin for UCI
+
+Package: libuci
+Version: 2014-04-11.1-1
+Depends: libc, libubox
+Source: package/system/uci
+License: LGPLv2.1 GPLv2
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 14235
+Filename: libuci_2014-04-11.1-1_ralink.ipk
+Size: 14827
+MD5Sum: d1d6c7a864cc48a7bee3eb4dc3b525a4
+SHA256sum: a407b288063b6786d48b6fc7a4fb93b60b14e6560a64ae670878aadb53099f19
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libusb-1.0
+Version: 1.0.9-1
+Depends: libc, libpthread, librt
+Source: package/libs/libusb
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 21019
+Filename: libusb-1.0_1.0.9-1_ralink.ipk
+Size: 21634
+MD5Sum: 5debd9cd3e32597065979441bf74e9fe
+SHA256sum: a91ac436ef997b48a3cf5b24ffa28baa84a5713edc16e504b140bba8e4f13489
+Description:  libusb is a C library that gives applications easy access to USB devices on
+ many different operating systems.
+
+Package: libuuid
+Version: 2.24.1-1
+Depends: libc
+Source: package/utils/util-linux
+License: GPLv2 LGPLv2.1 BSD-3c
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+Architecture: ralink
+Installed-Size: 5116
+Filename: libuuid_2.24.1-1_ralink.ipk
+Size: 5882
+MD5Sum: 8b7e0ffa0a9cc6ce6881dd5e2706290b
+SHA256sum: 94fff7b337d7c8cf2e56dd85d298eb5462a3be72533b8e1aa23cf0dc70484521
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: libxtables
+Version: 1.4.21-1
+Depends: libc
+Source: package/network/utils/iptables
+Section: libs
+Architecture: ralink
+Installed-Size: 15998
+Filename: libxtables_1.4.21-1_ralink.ipk
+Size: 16505
+MD5Sum: 80904aa407ebb75400393a80baa3470a
+SHA256sum: 35405d3d9d8d566a8ec83fb4f1c65cf9d7831dbdff63f842a328e0cba761be13
+Description:  IPv4/IPv6 firewall - shared xtables library
+
+Package: lua
+Version: 5.1.5-1
+Depends: libc, liblua
+Source: package/utils/lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ralink
+Installed-Size: 4427
+Filename: lua_5.1.5-1_ralink.ipk
+Size: 5108
+MD5Sum: d6524b3cf621a252fc30d77abc3a45a1
+SHA256sum: ef348ca31c43075b942658b2461cad66876c3f38f5ce59ed8efa6c68ea5de93e
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: luci-app-chinadns
+Version: 0.12+svn-r460-1
+Depends: libc, ChinaDNS-C
+Source: package/pandorabox/webs/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 2285
+Filename: luci-app-chinadns_0.12+svn-r460-1_ralink.ipk
+Size: 3036
+MD5Sum: 4967bcec1cb95ad77762d1dcebca54fe
+SHA256sum: 9353b8aacb490691de0b56edd4dcbff8074cc79e3cb5a16c462a420a00a6db83
+Description:  LuCI Support for ChinaDNS-C
+
+Package: luci-app-cpulimit
+Version: 0.12+svn-r460-1
+Depends: libc, cpulimit-ng
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 1825
+Filename: luci-app-cpulimit_0.12+svn-r460-1_ralink.ipk
+Size: 2424
+MD5Sum: 2014df44908e74f4a63177b11184a704
+SHA256sum: 68c41ebed0caa8405cfad32423896a07c047f2b70faea8f8da9506f37461afc3
+Description:  CPU limit configuration module
+
+Package: luci-app-ddns
+Version: 0.12+svn-r460-1
+Depends: libc, ddns-scripts
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 11379
+Filename: luci-app-ddns_0.12+svn-r460-1_ralink.ipk
+Size: 11974
+MD5Sum: f1a83f4fb41f7780b5e3d16c7869846d
+SHA256sum: d3736d0ba5012c903af2701d8d239c71f94ad0631351776279ec314768afe916
+Description:  Dynamic DNS configuration module
+
+Package: luci-app-firewall
+Version: 0.12+svn-r460-1
+Depends: libc, firewall
+Source: package/pandorabox/webs/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 69318
+Filename: luci-app-firewall_0.12+svn-r460-1_ralink.ipk
+Size: 70036
+MD5Sum: 8585158dbbb0478c5b60c38010eec287
+SHA256sum: f0d184332fdb156954261a506fb5601866cf774d3f6a8b41e9e6793e85e9f1a5
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-goagent
+Version: 0.12+svn-r460-1
+Depends: libc, goagent
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 9165
+Filename: luci-app-goagent_0.12+svn-r460-1_ralink.ipk
+Size: 9769
+MD5Sum: 1e95a92c4fdc411a022ae10a9d0d9a82
+SHA256sum: e7f058660b6bd734f8eecda7ef6d56522e3838435bd43a966bec8306743678aa
+Description:  GoAgent Proxy
+
+Package: luci-app-hd-idle
+Version: 0.12+svn-r460-1
+Depends: libc, hd-idle
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 6196
+Filename: luci-app-hd-idle_0.12+svn-r460-1_ralink.ipk
+Size: 6921
+MD5Sum: d1373a4849c6f874c9ecb91e1555a6fc
+SHA256sum: c18f76efa5bf993701ba07dc30cadb0f97326fbcebbceef861688708e2bfd3ce
+Description:  Hard Disk Idle Spin-Down module
+
+Package: luci-app-macvlan
+Version: 0.12+svn-r460-1
+Depends: libc, kmod-macvlan, luci-app-mwan3
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 6276
+Filename: luci-app-macvlan_0.12+svn-r460-1_ralink.ipk
+Size: 6849
+MD5Sum: 5e9cac903bdd3754ceb338b4edaba2e8
+SHA256sum: 8468fea365562c9f7431e74bfbc3f6cd417deec1c702c5131c540be8974f5529
+Description:  LuCI Support for macvlan
+
+Package: luci-app-mjpg-streamer
+Version: 0.12+svn-r460-1
+Depends: libc, mjpg-streamer
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 4117
+Filename: luci-app-mjpg-streamer_0.12+svn-r460-1_ralink.ipk
+Size: 4727
+MD5Sum: b08f0b5b816f7d63e3b7ca02efe0eab3
+SHA256sum: 650c2a9d8e230dd0ddae06c9345aa74b4c72662c7dc2c9b5c3b15dc861f421a6
+Description:  MJPG-Streamer service configuration module
+
+Package: luci-app-ntpc
+Version: 0.12+svn-r460-1
+Depends: libc, ntpclient
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 7771
+Filename: luci-app-ntpc_0.12+svn-r460-1_ralink.ipk
+Size: 8404
+MD5Sum: fba57444d1893558033f06452aaca3f2
+SHA256sum: 34268af5b1a474ed1912a75bc9e799e45e977ad267edb23094abe36940262776
+Description:  NTP time synchronisation configuration module
+
+Package: luci-app-radvd
+Version: 0.12+svn-r460-1
+Depends: libc, radvd
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 30957
+Filename: luci-app-radvd_0.12+svn-r460-1_ralink.ipk
+Size: 31718
+MD5Sum: d93be0660322ab410fb034ebcff14424
+SHA256sum: a44d0a81b420e1a467081c748e60ec00fc71aa63baef5986954b140831f2c6fe
+Description:  LuCI Support for Radvd
+
+Package: luci-app-redsocks2
+Version: 0.12+svn-r460-1
+Depends: libc, redsocks2, kmod-ipt-nat, kmod-ipt-nat-extra, kmod-ipt-ipset, ipset, resolveip
+Source: package/pandorabox/webs/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 3681
+Filename: luci-app-redsocks2_0.12+svn-r460-1_ralink.ipk
+Size: 4449
+MD5Sum: 4309505e8b95f3486c05883170f5a1d7
+SHA256sum: 3c3d43998a972a320dac4c651216f95ab4d5aa8604b5b7b13b8cde380bd0f123
+Description:  LuCI Support for redsocks2
+
+Package: luci-app-samba
+Version: 0.12+svn-r460-1
+Depends: libc, samba36-server
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 12360
+Filename: luci-app-samba_0.12+svn-r460-1_ralink.ipk
+Size: 12992
+MD5Sum: 84e9f02e26a70af43b5ece08e8e1238f
+SHA256sum: 1be36002431157ca36064c0a92100b30ffbaa5fdd2f80b173b67dfeac6459149
+Description:  Network Shares - Samba SMB/CIFS module
+
+Package: luci-app-shadowsocks
+Version: 0.12+svn-r460-1
+Depends: libc, shadowsocks-libev, kmod-ipt-nat, kmod-ipt-nat-extra, kmod-ipt-ipset, ipset, resolveip, ChinaDNS-C
+Source: package/pandorabox/webs/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 3896
+Filename: luci-app-shadowsocks_0.12+svn-r460-1_ralink.ipk
+Size: 4677
+MD5Sum: 4950eca10c76e9996d2043be9a26420b
+SHA256sum: 1153c8ef9064756a3358ed26fac94af8e2354ac8c4d71202ac19782b710e92a8
+Description:  LuCI Support for shadowsocks
+
+Package: luci-app-shairport
+Version: 0.12+svn-r460-1
+Depends: libc, shairport
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 2646
+Filename: luci-app-shairport_0.12+svn-r460-1_ralink.ipk
+Size: 3234
+MD5Sum: 0b08e9432619665623fcf1f404fbc6ea
+SHA256sum: 4378f5f9d4e1c982f9035b1938da2f50b438efeba718fdd6845eb8a7e7458535
+Description:  LuCI Support for Shairport
+
+Package: luci-app-sqm
+Version: 3-1
+Depends: libc, lua, luci-base, sqm-scripts
+Source: package/pandorabox/luci-app-sqm
+License: GPLv2
+Section: luci
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 3107
+Filename: luci-app-sqm_3-1_all.ipk
+Size: 3897
+MD5Sum: fa880a6817e60bc15bb1758909fc2d62
+SHA256sum: 5c31c9e20a0c2428e13c22f6161bc57132a3204cfb46c16f04e70821a4185c51
+Description:  Control the simple_qos SQM script
+
+Package: luci-app-transmission
+Version: 0.12+svn-r460-1
+Depends: libc, transmission-daemon
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 26960
+Filename: luci-app-transmission_0.12+svn-r460-1_ralink.ipk
+Size: 27540
+MD5Sum: 343ea9a8ea48e7481c60dcfe0d970916
+SHA256sum: f6dca2210ffa83eb8285cac3fa163f49794ce50b8ac0b1b7f500a8b7b9c61e5d
+Description:  LuCI Support for Transmission
+
+Package: luci-app-upnp
+Version: 0.12+svn-r460-1
+Depends: libc, miniupnpd-pandorabox
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 19807
+Filename: luci-app-upnp_0.12+svn-r460-1_ralink.ipk
+Size: 20449
+MD5Sum: b2b85af123d72f758582ea62f32ab559
+SHA256sum: 320ac4e30788b4edefcf5a7778560a6ad31b1653e9230289d45a63c4d95cbf7d
+Description:  Universal Plug & Play configuration module
+
+Package: luci-app-usb-printer
+Version: 0.12+svn-r460-1
+Depends: libc, p910nd, kmod-usb-printer
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 3697
+Filename: luci-app-usb-printer_0.12+svn-r460-1_ralink.ipk
+Size: 4412
+MD5Sum: 49c06cf944a47fe764f164b8192f84cb
+SHA256sum: 1888dd92a3be516897c21d4913189a2d2539dd0449425426e66b5b3fbeae94d0
+Description:  USB Printer Share via TCP/IP
+
+Package: luci-app-vnstat
+Version: 0.12+svn-r460-1
+Depends: libc, vnstat, vnstati
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 9561
+Filename: luci-app-vnstat_0.12+svn-r460-1_ralink.ipk
+Size: 10287
+MD5Sum: 123f24b421d5a1151295c4634d70aeec
+SHA256sum: 42cea2e117cf61469620076b7d8a8446d2ec9fc2a95ddfd145a87fb6a20ca514
+Description:  LuCI Support for VnStat
+
+Package: luci-app-vsftpd
+Version: 0.12+svn-r460-1
+Depends: libc, vsftpd
+Source: package/pandorabox/webs/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 6093
+Filename: luci-app-vsftpd_0.12+svn-r460-1_ralink.ipk
+Size: 6669
+MD5Sum: a633a2504f4ca8296b815c1a2ea68935
+SHA256sum: dab82f18c42e6fc8c08bdcbdb9b43497de2bc1f9292cbdd8439c781280e6637b
+Description:  LuCI Support FTP Server
+
+Package: luci-app-w8021x
+Version: 0.12+svn-r460-1
+Depends: libc
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 5799
+Filename: luci-app-w8021x_0.12+svn-r460-1_ralink.ipk
+Size: 6381
+MD5Sum: 27057287ac6417230b66a35b6ed4086e
+SHA256sum: 5caf6cc399db512337131d70538967d8b3c63235300bf87ec770c79e1476d461
+Description:  Wired 802.1X Authentication
+
+Package: luci-app-webshell
+Version: 0.12+svn-r460-1
+Depends: libc
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 2093
+Filename: luci-app-webshell_0.12+svn-r460-1_ralink.ipk
+Size: 2668
+MD5Sum: e355999b48271c61046a90b8561ba1b1
+SHA256sum: c42f68cdb581cc40abaa41e2bcdac32d86e0dfb350ad0a019d866aac0dd48733
+Description:  webshell configuration module
+
+Package: luci-app-wol
+Version: 0.12+svn-r460-1
+Depends: libc, etherwake
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 8923
+Filename: luci-app-wol_0.12+svn-r460-1_ralink.ipk
+Size: 9553
+MD5Sum: a7db7a86cd8906318f2332b76833a995
+SHA256sum: a660d4e96fc13b024f91f4da5db16590d4609e76d123f62ca19ceee8fe93edd7
+Description:  LuCI Support for Wake-on-LAN
+
+Package: luci-app-xunlei
+Version: 0.12+svn-r460-1
+Depends: libc, wget
+Source: package/pandorabox/webs/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 4521
+Filename: luci-app-xunlei_0.12+svn-r460-1_ralink.ipk
+Size: 5114
+MD5Sum: d294ebd1be939da42521513d84d83e59
+SHA256sum: b3ddd3617ce12d6fd0805c344129ccf1802770e87487da79f767bcdda2df299f
+Description:  LuCI Support for Xware downloading app.
+
+Package: luci-base
+Version: 0.12+svn-r460-1
+Depends: libc, lua, libuci-lua, libubus-lua
+Source: package/pandorabox/webs/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 150237
+Filename: luci-base_0.12+svn-r460-1_ralink.ipk
+Size: 150943
+MD5Sum: a61a312f6345efc02c0eacd1dd6fbf4b
+SHA256sum: 3e857d1ef41adaf8ad9392ff3f10607d6397ffe1dc7967cd375b92225de56c29
+Description:  LuCI core libraries
+
+Package: luci-i18n-chinese
+Version: 0.12+svn-r460-1
+Depends: libc
+Source: package/pandorabox/webs/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 19723
+Filename: luci-i18n-chinese_0.12+svn-r460-1_ralink.ipk
+Size: 20457
+MD5Sum: 68a455a7211c065820424206620f7db5
+SHA256sum: 54a0662a09ef1a508aca65bc2499473159384d0107e6d5b30e73ca151d3ccb7a
+Description:  Chinese (by Chinese Translators)
+
+Package: luci-i18n-english
+Version: 0.12+svn-r460-1
+Depends: libc
+Source: package/pandorabox/webs/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 770
+Filename: luci-i18n-english_0.12+svn-r460-1_ralink.ipk
+Size: 1464
+MD5Sum: de8d07b6159188fb9e46bd00d390b578
+SHA256sum: 913827edf30979c0e0a8ce7e98a1fd176720eb1d63a2d31c52caaa2f6483b84a
+Description:  English
+
+Package: luci-lib-nixio
+Version: 0.12+svn-r460-1
+Depends: libc, luci-base
+Source: package/pandorabox/webs/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 29968
+Filename: luci-lib-nixio_0.12+svn-r460-1_ralink.ipk
+Size: 30490
+MD5Sum: f586fecec78222cf2a31cdf1d9ae2faf
+SHA256sum: 4f55b3352dff0f83d9668a60da68cb0045b4a07f576ec228117479fa8ee4a365
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: 0.12+svn-r460-1
+Depends: libc, luci-base
+Source: package/pandorabox/webs/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 85492
+Filename: luci-mod-admin-full_0.12+svn-r460-1_ralink.ipk
+Size: 86164
+MD5Sum: 73b62c209734271568b5bc8214c83c7c
+SHA256sum: e98cd1b0c73468d417f3ed385da58750c05ca72bfe0cde22fa648cc969d2a025
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-3g
+Version: 0.12+svn-r460-1
+Depends: libc, comgt
+Source: package/pandorabox/webs/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 2021
+Filename: luci-proto-3g_0.12+svn-r460-1_ralink.ipk
+Size: 2613
+MD5Sum: 7eb92315b606b0e44af019378bd2e9b0
+SHA256sum: 0fa3e06b48be2647781eba11253cb366aafaece695b3247626b167cf8a3d33fb
+Description:  Support for 3G
+
+Package: luci-proto-ipv6
+Version: 0.12+svn-r460-1
+Depends: libc
+Source: package/pandorabox/webs/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 4718
+Filename: luci-proto-ipv6_0.12+svn-r460-1_ralink.ipk
+Size: 5312
+MD5Sum: d733fe00f133fb75d384e838741778ad
+SHA256sum: 02783a13cf8b0fa17d02cd201c3369175f7ceefdbea3b2b9edb2f8e55c7c1e02
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite
+
+Package: luci-proto-ppp
+Version: 0.12+svn-r460-1
+Depends: libc
+Source: package/pandorabox/webs/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 4567
+Filename: luci-proto-ppp_0.12+svn-r460-1_ralink.ipk
+Size: 5149
+MD5Sum: 8f3f714b4e68cc6248a165f70ce8f82e
+SHA256sum: 1a31064ddf652ea28e6a9bdec94ded3e813b518b89c75a7b86f390b32c2d2b73
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-theme-bootstrap
+Version: 0.12+svn-r460-1
+Depends: libc
+Source: package/pandorabox/webs/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 13072
+Filename: luci-theme-bootstrap_0.12+svn-r460-1_ralink.ipk
+Size: 13762
+MD5Sum: 5f67db3420b0ac2e010d34ffe3da530f
+SHA256sum: 065a098329c3fff0b340babc684a1bbbcd2f5f3b54d7dedf64d37bf324bba20b
+Description:  Bootstrap Theme (default)
+
+Package: luci-theme-xeye
+Version: 0.12+svn-r460-1
+Depends: libc
+Source: package/pandorabox/webs/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 6523
+Filename: luci-theme-xeye_0.12+svn-r460-1_ralink.ipk
+Size: 7216
+MD5Sum: 4947fdc41a18598b097d2d963007c55b
+SHA256sum: db54662ffa134f8c48dd9060e04d33dd0d9697f3ee2965cddeebcc98e381179e
+Description:  Luci xeye Theme
+
+Package: luci
+Version: 0.12+svn-r460-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-lib-nixio
+Source: package/pandorabox/webs/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ralink
+Installed-Size: 104
+Filename: luci_0.12+svn-r460-1_ralink.ipk
+Size: 767
+MD5Sum: 6058c0af6ce3f4329cfdd23eb3252552
+SHA256sum: d666183715e093a0eb65ae38746efff218cdf58b4e06ad15ea905afc04946bcb
+Description:  Standard OpenWrt set including full admin with ppp support and the default OpenWrt theme
+
+Package: maccalc
+Version: 1
+Depends: libc
+Source: package/network/utils/maccalc
+Section: utils
+Architecture: ralink
+Installed-Size: 2072
+Filename: maccalc_1_ralink.ipk
+Size: 2611
+MD5Sum: 3d03360366de2f3417ff1ba569e3d9e1
+SHA256sum: 049c2b8c6e3c739c745186f592675dede57ddb62f71038c8dd7fe1fe583a2a03
+Description:  This package contains a MAC address manipulation utility.
+
+Package: miniupnpd-pandorabox
+Version: 1.8.20140523-4
+Depends: libc, iptables, libip4tc, libip6tc, ip6tables, libnfnetlink
+Source: package/pandorabox/miniupnpd-pandorabox
+Section: net
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: ralink
+Installed-Size: 46743
+Filename: miniupnpd-pandorabox_1.8.20140523-4_ralink.ipk
+Size: 47580
+MD5Sum: 897a4096fc3f97e34634321ec95ef28e
+SHA256sum: 933c42806638db322fa58d1b4e2761cc4880e57d6d451fb637bd0af3d014c139
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: mtd
+Version: 20
+Depends: libc, libubox
+Source: package/system/mtd
+License: GPLv2 GPLv2+
+Section: utils
+Architecture: ralink
+Installed-Size: 10310
+Filename: mtd_20_ralink.ipk
+Size: 10931
+MD5Sum: c36e577b06f82532ca279b87901f12ed
+SHA256sum: 428a50a3fd2c59801434794d73f3e7c8e7fc4b50b942fed32bfc51e864f99e4b
+Description:  This package contains an utility useful to upgrade from other firmware or 
+ older OpenWrt releases.
+
+Package: netifd
+Version: 2014-09-08.1-46c569989f984226916fec28dd8ef152a664043e
+Depends: libc, libuci, libnl-tiny, libubus, ubus, ubusd, jshn, libubox
+Source: package/network/config/netifd
+License: GPLv2
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 51041
+Filename: netifd_2014-09-08.1-46c569989f984226916fec28dd8ef152a664043e_ralink.ipk
+Size: 51574
+MD5Sum: 0129268fe017ebeef067d01d1ca484e3
+SHA256sum: 0b2c4e5973a7b76c615f9fa8afa0394431343e67db1fa602ec073f86b0f0a423
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: odhcp6c
+Version: 2014-12-10-722226c4f1d45c8bf4ac9189523738abcf7d648f
+Depends: libc, kmod-ipv6
+Source: package/network/ipv6/odhcp6c
+License: GPL-2.0
+Section: net
+Maintainer: Steven Barth <steven@midlink.org>
+Architecture: ralink
+Installed-Size: 20898
+Filename: odhcp6c_2014-12-10-722226c4f1d45c8bf4ac9189523738abcf7d648f_ralink.ipk
+Size: 21504
+MD5Sum: c69c94f08689f96fee684b22100cb4fe
+SHA256sum: b061f08aa9ad7066af8e12a1fdeb69014b5fcc580bf19b76c809a61f2941a369
+Description:  Embedded DHCPv6-client for OpenWrt
+
+Package: odhcpd
+Version: 2014-09-25-a6e2953843eaf6c93764f9feef10466e7a84ec85
+Depends: libc, libubox, libuci, libubus
+Source: package/network/services/odhcpd
+Section: net
+Maintainer: Steven Barth <steven@midlink.org>
+Architecture: ralink
+Installed-Size: 27770
+Filename: odhcpd_2014-09-25-a6e2953843eaf6c93764f9feef10466e7a84ec85_ralink.ipk
+Size: 28565
+MD5Sum: aa00cf8ad16ee6bf5f093c64c3fcfbb7
+SHA256sum: 4421462470ba08f548a57a59d41dfbff11b3fef4f918d0f8d2872d284b64da56
+Description:  odhcpd is a daemon for serving and relaying IP management protocols to
+ configure clients and downstream routers. It tries to follow the RFC 6204
+ requirements for IPv6 home routers.
+ 
+ odhcpd provides server services for DHCP, RA, stateless and stateful DHCPv6,
+ prefix delegation and can be used to relay RA, DHCPv6 and NDP between routed
+ (non-bridged) interfaces in case no delegated prefixes are available.
+
+Package: opkg
+Version: 9c97d5ecd795709c8584e972bfdf3aee3a5b846d-7
+Depends: libc
+Source: package/system/opkg
+License: GPLv2
+LicenseFiles: COPYING
+Section: base
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ralink
+Installed-Size: 50109
+Filename: opkg_9c97d5ecd795709c8584e972bfdf3aee3a5b846d-7_ralink.ipk
+Size: 51038
+MD5Sum: ebdb0d0b7b2784f4902e23428557a996
+SHA256sum: d3e2f51327b3249f21306ae7761cf3004429e4b820b8b062a18c04562f9cf012
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: ppp-mod-pppoe
+Version: 2.4.7-2
+Depends: libc, kmod-pppoe
+Source: package/network/services/ppp
+Section: net
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ralink
+Installed-Size: 9044
+Filename: ppp-mod-pppoe_2.4.7-2_ralink.ipk
+Size: 9641
+MD5Sum: efd5488b29030aff3f822f4e31a636e3
+SHA256sum: 0e9144d90c1db72f001166e3087d9b88f359c8b5b9f00cdb7cb387b8a467fbbd
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp
+Version: 2.4.7-2
+Depends: libc, kmod-ppp, libpthread, shellsync
+Source: package/network/services/ppp
+Section: net
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ralink
+Installed-Size: 96766
+Filename: ppp_2.4.7-2_ralink.ipk
+Size: 97499
+MD5Sum: 0a92cefbf1ff5ccedab8073ede5feeed
+SHA256sum: 4743a77b876324fa06a97a2e9a22dcda6cf96df39b129fdc06e6fd21ea200189
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: procd-nand
+Version: 2014-09-15-c1a558f7d0c1e6c1ffa5a47d557a7b45205eef1d
+Depends: libc, ubi-utils
+Source: package/system/procd
+License: GPLv2
+Section: utils
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ralink
+Installed-Size: 37406
+Filename: procd-nand_2014-09-15-c1a558f7d0c1e6c1ffa5a47d557a7b45205eef1d_ralink.ipk
+Size: 38123
+MD5Sum: 09ebbfe8f43d4621a42ce2dd4b04a250
+SHA256sum: 8b485e1039be6b2051edfe2ed8f66e82561dfbbb544e1a2fcad572c3c2dffc2b
+Description:  OpenWrt sysupgrade nand helper
+
+Package: procd
+Version: 2014-09-15-c1a558f7d0c1e6c1ffa5a47d557a7b45205eef1d
+Depends: libc, ubusd, ubus, libjson-script, ubox, libubox, libubus, procd-nand
+Source: package/system/procd
+License: GPLv2
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ralink
+Installed-Size: 28716
+Filename: procd_2014-09-15-c1a558f7d0c1e6c1ffa5a47d557a7b45205eef1d_ralink.ipk
+Size: 29282
+MD5Sum: a6705882712b27ffc3cd86f24a6e5691
+SHA256sum: 903d6d0cbf4f981683bbea535bd253e5838af1e445e2bd853afe5ebaa05183d0
+Description:  OpenWrt system process manager
+
+Package: python-greenlet
+Version: 0.4.2-1
+Depends: libc, python
+Source: package/pandorabox/python-greenlet
+Section: language-python
+Architecture: ralink
+Installed-Size: 10475
+Filename: python-greenlet_0.4.2-1_ralink.ipk
+Size: 11547
+MD5Sum: ae5eef22216591479a6ef5445181d1fb
+SHA256sum: 252309c68f04a99303d8004ca9cb289369761e734f9855cee35c9b5b0c3d72bd
+Description:  The greenlet package is a spin-off of Stackless, a version of CPython
+ that supports micro-threads called "tasklets". Tasklets run
+ pseudo-concurrently (typically in a single or a few OS-level threads)
+ and are synchronized with data exchanges on "channels".
+ 
+ A "greenlet", on the other hand, is a still more primitive notion of
+ micro-thread with no implicit scheduling; coroutines, in other
+ words. This is useful when you want to control exactly when your code
+ runs. You can build custom scheduled micro-threads on top of greenlet;
+ however, it seems that greenlets are useful on their own as a way to
+ make advanced control flow structures. For example, we can recreate
+ generators; the difference with Python's own generators is that our
+ generators can call nested functions and the nested functions can
+ yield values too. Additionally, you don't need a "yield" keyword. See
+ the example in tests/test_generator.py.
+ 
+ Greenlets are provided as a C extension module for the regular
+ unmodified interpreter.
+ 
+ Greenlets are lightweight coroutines for in-process concurrent
+ programming.
+
+Package: qos-scripts
+Version: 1.2.1-7
+Depends: libc, tc, kmod-sched-core, kmod-sched-connmark, kmod-ifb, iptables, iptables-mod-filter, iptables-mod-ipopt, iptables-mod-conntrack-extra
+Source: package/network/config/qos-scripts
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: all
+Installed-Size: 6425
+Filename: qos-scripts_1.2.1-7_all.ipk
+Size: 7125
+MD5Sum: 7e2ac371eb96ad62b82d3c3221b46092
+SHA256sum: 480b75adb2d80546313dbd88e7bc6fe07b0e428a11820f0c7f0c8ad7c2cf6f99
+Description:  A set of scripts that abstract QoS configuration into a simple 
+ configuration file supporting stanzas that specify any number of QoS 
+ entries.
+
+Package: ralink-utils
+Version: 1
+Depends: libc, kmod-ipt-nathelper-extra
+Source: package/ralink/ralink-utils
+Section: ralink
+Architecture: ralink
+Installed-Size: 19676
+Filename: ralink-utils_1_ralink.ipk
+Size: 20208
+MD5Sum: e8dca6409d55822553307cf39d6d1814
+SHA256sum: dd981c563ddb95a8b8803f502a08bc5892e1bc47afd0658fd9f3dcb30db1523a
+Description:  Ralink RT305x app tools
+
+Package: redsocks2
+Version: 0.51-50234c0c60e412875997277600ad27c4f9d1b6a1
+Depends: libc, libevent2
+Source: package/pandorabox/redsocks2
+Section: net
+Architecture: ralink
+Installed-Size: 32905
+Filename: redsocks2_0.51-50234c0c60e412875997277600ad27c4f9d1b6a1_ralink.ipk
+Size: 33590
+MD5Sum: f8b2eb9a15759f00e6c9038fe32d0ea5
+SHA256sum: 0541d3c54967be3b0ed200e549adf7f5e357e777cdb88faaf221093314af45a8
+Description:  This is a modified version of original redsocks.
+ The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. 
+ This variant is useful for anti-GFW (Great Fire Wall).
+
+Package: resolveip
+Version: 2
+Depends: libc
+Source: package/network/utils/resolveip
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ralink
+Installed-Size: 1703
+Filename: resolveip_2_ralink.ipk
+Size: 2423
+MD5Sum: 36bb249b3b0c5530f8b0dd01bd886265
+SHA256sum: e33875a5e5b4af6f86b316ce9c154451b1114191f215ccae6c4a844e6ec2bf64
+Description:  This package contains the small resolveip utility which
+ can be used by scripts to turn host names into numeric
+ IP addresses. It supports IPv4 and IPv6 resolving and
+ has a configurable timeout to guarantee a certain maximum
+ runtime in case of slow or defunct DNS servers.
+
+Package: samba36-server
+Version: 3.6.24-1
+Depends: libc
+Source: package/network/services/samba36
+License: GPLv3
+LicenseFiles: COPYING
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 809528
+Filename: samba36-server_3.6.24-1_ralink.ipk
+Size: 798314
+MD5Sum: ed4f5f597a5bbcb771f6c73a32a60292
+SHA256sum: 2b1a59e1badad7cd08916d713c676ed07066b6db82ffed39880cab52cc920ee9
+Description:  The Samba software suite is a collection of programs that implements the
+ SMB protocol for UNIX systems, allowing you to serve files and printers to
+ Windows, NT, OS/2 and DOS clients. This protocol is sometimes also referred
+ to as the LanManager or Netbios protocol.
+
+Package: shadowsocks-libev
+Version: 1.6.1-888c2438c3d91129fa76eac506b52b0cfed9dc44
+Depends: libc, libopenssl
+Source: package/pandorabox/shadowsocks-libev
+Section: net
+Maintainer: Max Lv <max.c.lv@gmail.com>
+Architecture: ralink
+Installed-Size: 132125
+Filename: shadowsocks-libev_1.6.1-888c2438c3d91129fa76eac506b52b0cfed9dc44_ralink.ipk
+Size: 132310
+MD5Sum: 476b64952f5fff66042dc4ec91040417
+SHA256sum: c12b29f2afcdb9b79c231090ad6523baf8fb42a0b724538bf3cd125bfa46e244
+Description:  Shadowsocks-libev is a lightweight secured scoks5 proxy for embedded devices and low end boxes.
+
+Package: shellsync
+Version: 0.1-1
+Depends: libc, libpthread
+Source: package/pandorabox/shellsync
+Section: opt
+Architecture: ralink
+Installed-Size: 1990
+Filename: shellsync_0.1-1_ralink.ipk
+Size: 2550
+MD5Sum: 2a8b30973c2a09469eff78fb7663f3a0
+SHA256sum: d178552332d4ba01ce96d21cee193cdfcd8ed9a8b16182bc4ccb874be6386f75
+Description:  A tool to sync different shell scripts.Based on syncppp patch by morfast.
+
+Package: sqm-scripts
+Version: 7-3
+Depends: libc, tc, kmod-sched, kmod-ifb, iptables, ip, iptables-mod-filter, iptables-mod-ipopt, iptables-mod-conntrack-extra
+Source: package/pandorabox/sqm-scripts
+License: GPLv2
+Section: net
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 10715
+Filename: sqm-scripts_7-3_all.ipk
+Size: 11427
+MD5Sum: 8b053538f5181292d920bf2da28fd7ff
+SHA256sum: 4e6762cca07c495fe2fbe373cdadbdd8168f4140ec027d12534edbb57050e127
+Description:  A set of scripts that does simple SQM configuration.
+
+Package: swap-utils
+Version: 2.24.1-1
+Depends: libc, libblkid
+Source: package/utils/util-linux
+License: GPLv2 LGPLv2.1 BSD-3c
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: ralink
+Installed-Size: 23881
+Filename: swap-utils_2.24.1-1_ralink.ipk
+Size: 24438
+MD5Sum: 3b44a755d934a8c4357370d1a163164c
+SHA256sum: e6370695438d3fd3f118dbdb7d5ce1b782564a500fbca205eda9036507222fa3
+Description:  contains: mkswap, swaplabel
+
+Package: swconfig
+Version: 10
+Depends: libc, libuci, libnl-tiny
+Source: package/network/config/swconfig
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 6442
+Filename: swconfig_10_ralink.ipk
+Size: 6992
+MD5Sum: ce2106700f3f28f079da22582f4d88f1
+SHA256sum: 56f39ab753dca75e4583c117baa59de788f82b9a2865be69d6ad907e5d842a91
+Description:  Switch configuration utility
+
+Package: tc
+Version: 3.15.0-1
+Depends: libc, kmod-sched-core
+Source: package/network/utils/iproute2
+Section: net
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: ralink
+Installed-Size: 82632
+Filename: tc_3.15.0-1_ralink.ipk
+Size: 83353
+MD5Sum: b3664a9431f7c7fe3ecf0d9bc0d70372
+SHA256sum: dc72e7c14747fabf1b62c1642f258f96f11f24388828e0274cfdf7e0a85688bb
+Description:  Traffic control utility
+
+Package: terminfo
+Version: 5.9-1
+Depends: libc
+Source: package/libs/ncurses
+License: FREE
+LicenseFiles: README
+Section: libs
+Architecture: ralink
+Installed-Size: 5837
+Filename: terminfo_5.9-1_ralink.ipk
+Size: 6365
+MD5Sum: 002f00e50a235ba428f70421b187c5b5
+SHA256sum: 5afbcac3c32660f3cb2e3b1a47ac2e69630275b8816ddeea50d132d2555abd6a
+Description:  Terminal Info Database (ncurses)
+
+Package: u-boot-mtk
+Version: 1
+Depends: libc
+Source: package/ralink/u-boot-mtk
+Section: ralink
+Maintainer: lintel<lintel.huang@gmail.com>
+Architecture: ralink
+Installed-Size: 105
+Filename: u-boot-mtk_1_ralink.ipk
+Size: 624
+MD5Sum: 70f9a1d289db5f624ecb6c5708cf423f
+SHA256sum: ffac38caec797010764084e5a52f71dd8721ac3d66a9352bdc128105eb6f656d
+Description:  PandoraBoox Bootloader for Ralink/MTK
+
+Package: ubi-utils
+Version: 1.5.1-2
+Depends: libc
+Source: package/utils/ubi-utils
+License: GPLv2
+Section: utils
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ralink
+Installed-Size: 69873
+Filename: ubi-utils_1.5.1-2_ralink.ipk
+Size: 70107
+MD5Sum: 6fdb668c4e46ed3e52577cdd98e4865b
+SHA256sum: 93cd4c924bacfc2d186873a96c6a0313182d4c5fc9d54d473feb45286683a681
+Description:  Utilities for manipulating memory technology devices.
+
+Package: uboot-envtools
+Version: 2014.04-4
+Depends: libc
+Source: package/boot/uboot-envtools
+Section: utils
+Architecture: ralink
+Installed-Size: 9526
+Filename: uboot-envtools_2014.04-4_ralink.ipk
+Size: 10075
+MD5Sum: 6a0655fe9dd2cf761aa6e259900bc453
+SHA256sum: f02c7c6983a37bdcf7e780c2c308e32e5020db84e36e24597558c1f6a1362d6f
+Description:  This package includes tools to read and modify U-Boot bootloader environment.
+
+Package: ubox
+Version: 2014-09-16-5c45b560bc8c9e13682269ed963a8a4a65959518
+Depends: libc, libubox, ubusd, ubus, libubus, libuci
+Source: package/system/ubox
+License: GPLv2
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ralink
+Installed-Size: 20499
+Filename: ubox_2014-09-16-5c45b560bc8c9e13682269ed963a8a4a65959518_ralink.ipk
+Size: 21100
+MD5Sum: aeb95d9a6bab917bd5fb2719f7e987be
+SHA256sum: 952a39712af4bab7a3ab5248c0d90cb2c4092f6d6e6dde601962bad5dc487017
+Description:  OpenWrt system helper toolbox
+
+Package: ubus
+Version: 2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3
+Depends: libc, libubus, libblobmsg-json, ubusd
+Source: package/system/ubus
+License: LGPLv2.1
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 3708
+Filename: ubus_2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3_ralink.ipk
+Size: 4346
+MD5Sum: 6b38bead6bae4eaf095e0dc47ac29585
+SHA256sum: 710fa7a7cf276751e73ec78302abf42e6ad3afa5bdb28f5be00dfcbd99845c08
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3
+Depends: libc, libubox
+Source: package/system/ubus
+License: LGPLv2.1
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 6486
+Filename: ubusd_2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3_ralink.ipk
+Size: 7065
+MD5Sum: 743b5db9376cd8dcdd8559617bd67d62
+SHA256sum: 1a0f90706ec66afc8454b326f58404bc670779127b6936a00511af8566594283
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2014-04-11.1-1
+Depends: libc, libuci
+Source: package/system/uci
+License: LGPLv2.1 GPLv2
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 6288
+Filename: uci_2014-04-11.1-1_ralink.ipk
+Size: 6882
+MD5Sum: dd259e7a6dc15d6e0dc25b45929d9112
+SHA256sum: 31757c4d1573f13cbd5bbae337fdaede33234c06d0a1525163d564ebb38ea7f9
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: ufsd-tools
+Version: 1
+Depends: libc
+Source: package/pandorabox/ufsd-driver
+Section: utils
+Maintainer: lintel<lintel.huang@gmail.com>
+Architecture: ralink
+Installed-Size: 470767
+Filename: ufsd-tools_1_ralink.ipk
+Size: 471287
+MD5Sum: c35bd1c82393809a06aadbcbd919a2fa
+SHA256sum: fc2a3f2609f71034a772cc83ffbb812c8d0d85ddd8151eb29945a9b65dcb9aa0
+Description:  ufsd-tools
+
+Package: uhttpd-mod-ubus
+Version: 2014-10-27-fd8e5e379c23c5fbcec3e76894b839233df09067
+Depends: libc, uhttpd, libubus, libblobmsg-json
+Source: package/network/services/uhttpd
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 6227
+Filename: uhttpd-mod-ubus_2014-10-27-fd8e5e379c23c5fbcec3e76894b839233df09067_ralink.ipk
+Size: 6890
+MD5Sum: 53b71591541895df3513bf0a5690ce7e
+SHA256sum: 330736c515251d114f703446ea4baa6aaecbae73354b995d5c017763821ea452
+Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
+ session.* namespace and procedures.
+
+Package: uhttpd
+Version: 2014-10-27-fd8e5e379c23c5fbcec3e76894b839233df09067
+Depends: libc, libubox
+Source: package/network/services/uhttpd
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 18666
+Filename: uhttpd_2014-10-27-fd8e5e379c23c5fbcec3e76894b839233df09067_ralink.ipk
+Size: 19375
+MD5Sum: ae418b2fcb84ea9efe60319a30a37d91
+SHA256sum: 2a314735d6cb7b31e5365a23ec08fc11557d8f246342dc8c11c445fff20e3348
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
+Package: usb-modeswitch
+Version: 2014-07-18-01ecc3b9764d1dd89cf36ede0a2d98f9adb0cd33
+Depends: libc, libubox, libblobmsg-json, libusb-1.0
+Source: package/utils/usbmode
+License: GPLv2
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 10954
+Filename: usb-modeswitch_2014-07-18-01ecc3b9764d1dd89cf36ede0a2d98f9adb0cd33_ralink.ipk
+Size: 11576
+MD5Sum: d4d74a9c795cc708d2db28970a296b91
+SHA256sum: 9a5a2ba344b042b527d815b3f9b2641c80a52943aca5a23e21ee56a1bced4a40
+Description:  USB mode switching utility
+
+Package: usbreset
+Version: 4
+Depends: libc
+Source: package/utils/usbreset
+Section: utils
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ralink
+Installed-Size: 2459
+Filename: usbreset_4_ralink.ipk
+Size: 3106
+MD5Sum: 9b1da9e544e5aec43f07307f5e3a2fba
+SHA256sum: f5e195340e17890b7ff0fc05b274d3456e5b898a4e899255197b1ae2c6b46304
+Description:  This package contains the small usbreset utility which
+ can be used to send a USB port reset to a USB device -
+ useful for debugging or to force re-detection of particular
+ devices.
+
+Package: usbutils
+Version: 007-1
+Depends: libc, libusb-1.0, zlib, librt, libpthread
+Source: package/utils/usbutils
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 203960
+Filename: usbutils_007-1_ralink.ipk
+Size: 204668
+MD5Sum: 202c57324f4aa716beb00088a89c726b
+SHA256sum: d688ea99ddaa460c4fa06e02792fd89256d6f499dd5dc9dd54444dfaa0f7a2b4
+Description:  USB devices listing utilities
+
+Package: wireless-tools
+Version: 29-5
+Depends: libc
+Source: package/network/utils/wireless-tools
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 19693
+Filename: wireless-tools_29-5_ralink.ipk
+Size: 20348
+MD5Sum: 169c303540c887cdfca5c6595e0daa7f
+SHA256sum: 06fd15775ea649082829e16547c81f0da86ea593c3bd28b99ecaa23da333fc9a
+Description:  This package contains a collection of tools for configuring wireless
+ adapters implementing the "Linux Wireless Extensions".
+
+Package: wpad
+Version: 2014-06-03.1-1
+Depends: libc, libnl-tiny, libubus
+Source: package/network/services/hostapd
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ralink
+Installed-Size: 317830
+Filename: wpad_2014-06-03.1-1_ralink.ipk
+Size: 318579
+MD5Sum: 0d4d8d09ded67ded39eb09985288a18c
+SHA256sum: ca719476841ceff7fa059cbb9919d6b10f7c35d30984ceaf23f97744dcf02c61
+Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
+ Authenticator and Supplicant
+
+Package: zlib
+Version: 1.2.8-1
+Depends: libc
+Source: package/libs/zlib
+License: ZLIB
+LicenseFiles: README
+Section: libs
+Architecture: ralink
+Installed-Size: 36891
+Filename: zlib_1.2.8-1_ralink.ipk
+Size: 37516
+MD5Sum: 4a9f314c0b049df6c2e3244fa30cca62
+SHA256sum: 5899480cfd487ea94bea0ded166e6f9becef52474a4bce263ca948844143fcd3
+Description:  Library implementing the deflate compression method
+

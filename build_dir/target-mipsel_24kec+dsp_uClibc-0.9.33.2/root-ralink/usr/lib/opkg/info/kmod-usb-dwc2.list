@@ -1,0 +1,4 @@
+/etc/modules-boot.d/54-usb-dwc2
+/lib/modules/3.10.66/dwc2.ko
+/etc/modules.d/54-usb-dwc2
+/lib/modules/3.10.66/dwc2_platform.ko

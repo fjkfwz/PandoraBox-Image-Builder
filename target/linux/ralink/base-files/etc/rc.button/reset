@@ -1,0 +1,26 @@
+#!/bin/sh
+# Copyright (c) 2013 OpenWrt
+# Copyright (C) 2014 D-Team Technology Co.,Ltd. ShenZhen
+# Copyright (c) 2005-2014, lintel <lintel.huang@gmail.com>
+#   
+#   按键响应脚本
+#    
+#     警告:对着屏幕的哥们,我们允许你使用此脚本，但不允许你抹去作者的信息,请保留这段话。
+#
+[ "${ACTION}" = "released" ] || exit 0
+
+. /lib/functions.sh
+
+logger "$BUTTON pressed for $SEEN seconds"
+
+if [ "$SEEN" -lt 1 ]
+then
+	echo "WPS Pressed" > /dev/console
+	wps_pbc
+	sync
+#	reboot
+elif [ "$SEEN" -gt 2 ]
+then
+	echo "FACTORY RESET" > /dev/console
+	jffs2reset -y && reboot &
+fi

@@ -1,0 +1,138 @@
+#!/bin/sh /etc/rc.common
+# Copyright (c) 2009 OpenWrt.org
+# Copyright (c) 2009 Stefan Katerkamp <s@katerkamp.de>
+# Copyright (c) 2010 xue liu <liuxuenetmail@gmail.com>
+START=99
+
+NTPSERVER=pool.ntp.org
+NTPPORT=0
+INTERVALMINUTES=10
+COUNT=5
+
+unset SNUM
+unset SPOS
+unset NTPSERVERS
+unset NTPPORTS
+
+create_config_ntpclient() {
+	uci_set_default ntpclient <<-EOR
+	config ntpserver
+		option hostname $NTPSERVER
+		option port     $NTPPORT
+	config ntpclient
+		option interval	$(($INTERVALMINUTES * 60))
+		option count    $COUNT
+	EOR
+	
+	config_load ntpclient
+}
+
+ntpcommand() {
+	if [ "$NTPPORT" == "0" ]; then
+		echo /usr/sbin/ntpclient -s -h $NTPSERVER
+	else
+		echo /usr/sbin/ntpclient -s -p $NTPPORT -h $NTPSERVER
+	fi
+}
+
+cron_clean() {
+	crontab -l >&- 2>&-
+	if [ $? -eq 0 ]; then
+		crontab -l | sed -e /ntpclient/d | crontab -
+	fi
+}
+
+cron_seed() {
+	local cronstuff='*/'"$INTERVALMINUTES"' * * * *'
+	local reset="/etc/init.d/ntpclient restart"
+	
+	cron_clean
+
+	crontab -l >&- 2>&-
+	if [ $? -eq 0 ]; then
+		crontab -l | sed -e '$a\'"$cronstuff $(ntpcommand) || $reset" | crontab -
+	else
+		echo "$cronstuff $(ntpcommand) || $reset" | crontab -
+	fi
+	[ -L /var/spool/cron/crontabs ] || /etc/init.d/cron restart >&- 2>&-
+}
+
+pick_server() {
+	local rand
+	
+	[ -n "${NTPSERVERS// /}" ] || {
+		NTPSERVERS="$NTPSERVER"
+		NTPPORTS="$NTPPORT"
+	}
+	set -- $NTPSERVERS
+	SNUM=$#
+	rand=$(hexdump -e\"%u\" -n1 /dev/urandom)
+	[ "$rand" == '*' ] && rand=0
+	SPOS=$(($rand % $SNUM))
+	SPOS=$(($SPOS + 1))
+	eval NTPSERVER=\${$SPOS}
+	
+	set -- $NTPPORTS
+	eval NTPPORT=\${$SPOS}
+}
+
+load_ntpservers() {
+	local hostname
+	local port
+	config_get hostname $1 hostname
+	config_get port $1 port
+	[ -n "$hostname" ] && {
+		NTPSERVERS="$NTPSERVERS $hostname"
+		if [ -n "$port" ]; then
+			NTPPORTS="$NTPPORTS $port"
+		else
+			NTPPORTS="$NTPPORTS 0"
+		fi
+	}
+}
+
+load_ntpvalues() {
+	local interval
+	local count
+	config_get interval $1 interval
+	[ -n "$interval" ] && INTERVALMINUTES=$(($interval / 60))
+	[ "$INTERVALMINUTES" == "0" ] && INTERVALMINUTES=1
+	config_get count $1 count
+	[ -n "$count" ] && COUNT=$count
+	[ "$COUNT" == "0" ] && COUNT=1
+}
+
+eager_clockadjust() {
+	local i=0
+	while [ $i -lt $COUNT ]; do
+		i=$(($i + 1))
+		eval $(ntpcommand) >&- 2>&-
+		if [ $? -eq 0 ]; then
+			logger "Successful NTP clock adjust ($NTPSERVER)."
+			return
+		fi
+		logger NTP $NTPSERVER failed.
+		pick_server
+	done
+	logger NTP eager clock adjust failed.
+}
+
+start() {
+	config_load ntpclient
+	[ "$?" != "0" ] && create_config_ntpclient
+	config_foreach load_ntpvalues ntpclient
+	config_foreach load_ntpservers ntpserver
+	pick_server
+	eager_clockadjust
+	cron_seed
+}
+
+restart() {
+	start
+	logger "Restarted ntpclient. NTP server #$SPOS of $SNUM."
+}
+
+stop() {
+	cron_clean
+	logger "Stopped ntpclient."
+}

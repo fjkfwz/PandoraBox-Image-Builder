@@ -1,0 +1,18 @@
+#!/bin/sh /etc/rc.common
+START=99
+
+start() {
+	#fine tune eth rps in SMP SOC , balance the cpu loading
+	#echo 2 > /proc/irq/33/smp_affinity
+	#echo 1 > /sys/class/net/eth0/queues/rx-0/rps_cpus
+	echo 2 > /sys/class/net/eth0/queues/rx-0/rps_cpus
+	echo 2 > /sys/class/net/wlan0/queues/rx-0/rps_cpus
+	echo 2 > /sys/class/net/wlan1/queues/rx-0/rps_cpus
+	#reset bootting counter in hw info to indicate booting succesfully	
+	echo 0 > /proc/flash/bootcnt
+	#fine tune samba performance
+	#echo 2 > /proc/irq/42/smp_affinity
+	#echo 2 > /proc/irq/46/smp_affinity
+}
+
+

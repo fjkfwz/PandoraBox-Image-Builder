@@ -1,0 +1,2 @@
+#! /bin/sh
+exec '/home/lintel/PandoraBox-HG255d/staging_dir/host/bin/bison' -y "$@"
