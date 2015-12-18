@@ -1,5 +1,5 @@
 ## OpenWrt Image Builder的三个命令行参数
-- PROFILE	指定设备类型，此处是　TLWR2543
+- PROFILE	指定设备类型
 - PACKAGES	指定要编译进固件的包
 - FILES		指定要编译进固件的自定义文件，如网络有关配置文件, /opt/openwrt-wr2543
 
