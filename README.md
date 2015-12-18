@@ -3,11 +3,6 @@
 - PACKAGES	指定要编译进固件的包
 - FILES		指定要编译进固件的自定义文件，如网络有关配置文件, /opt/openwrt-wr2543
 
-## 开始编译OpenWrt自动翻墙固件
-	cd /opt/OpenWrt-ImageBuilder-ar71xx_generic-for-linux-x86_64
-	make image PROFILE=TLWR2543 PACKAGES="base-files busybox dnsmasq dropbear firewall fstools jsonfilter libc libgcc mtd netifd opkg procd swconfig ubox ubus ubusd uci kmod-crypto-aes kmod-crypto-arc4 kmod-crypto-core kmod-ledtrig-usbdev kmod-lib-crc-ccitt kmod-nls-base kmod-ip6tables kmod-ipt-conntrack kmod-ipt-core kmod-ipt-nat kmod-ipt-nathelper kmod-ipv6 kmod-ppp kmod-pppoe kmod-pppox kmod-slhc kmod-gpio-button-hotplug kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-ath kmod-ath9k kmod-ath9k-common kmod-cfg80211 kmod-mac80211 libip4tc libip6tc libxtables libblobmsg-json libiwinfo libjson-c libnl-tiny libubox libubus libuci ip6tables iptables hostapd-common iw odhcp6c odhcpd ppp ppp-mod-pppoe wpad-mini iwinfo jshn libjson-script uboot-envtools ipset wget shadowsocks-libev-polarssl luci-ssl" FILES=/opt/openwrt-wr2543
-
-编译好的的固件在 /opt/OpenWrt-ImageBuilder-ar71xx_generic-for-linux-x86_64/bin/ar71xx/目录，升级固件要用到的是　openwrt-ar71xx-generic-tl-wr2543-v1-squashfs-sysupgrade.bin
 
 #Image Builder命令参数
 ##编译命令
